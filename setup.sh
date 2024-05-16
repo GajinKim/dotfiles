@@ -26,7 +26,7 @@ get_done_message_based_on_status_code () {
 }
 
 # Clone the repository if this script is called from elsewhere (i.e., quick-setup from README)
-if [[ ! "$GIT_CLONE_URL" =~ (https:\/\/|git@)github.com(\/|:)gajinkim\/dotfiles\.git ]]; then
+if [[ ! "$GIT_CLONE_URL" =~ (https:\/\/|git@)github.com(\/|:)GajinKim\/dotfiles\.git ]]; then
   echo -n "Cloning repository gajinkim/dotfiles from GitHub... " | tee -a $DEBUG_LOGFILE
 
   # First try cloning with SSH, then try HTTPS as a last resort
@@ -99,8 +99,9 @@ pyenv install --skip-existing 3.8 >> $DEBUG_LOGFILE 2>&1
 pyenv global 3.8 >> $DEBUG_LOGFILE 2>&1
 echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
 
+# echo "${BOLD}${RED}NOTE: POWERLINE IS NOT YET INSTALLED... FIX THIS${RESET}"
 echo -n "Installing Powerline fonts... " | tee -a $DEBUG_LOGFILE # necessary for neovim status line (airline)
-python3 -m pip install --user powerline-status >> $DEBUG_LOGFILE 2>&1
+python3 -m pip install --user --break-system-packages powerline-status >> $DEBUG_LOGFILE 2>&1
 echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
 
 # # LSP installation (node modules)
@@ -137,8 +138,8 @@ done < language_servers.txt
 
 
 echo "\n${BOLD}Git ${LIGHT_GRAY}(interactive)${RESET}" | tee -a $DEBUG_LOGFILE
-git config --global commit.gpgsign true
-echo "${LIGHT_GRAY}commit gpg signing: enabled${RESET}" | tee -a $DEBUG_LOGFILE
+git config --global commit.gpgsign false
+echo "${LIGHT_GRAY}commit gpg signing: disabled${RESET}" | tee -a $DEBUG_LOGFILE
 git config --global core.editor "vim"
 echo "${LIGHT_GRAY}default editor: vim${RESET}" | tee -a $DEBUG_LOGFILE
 
