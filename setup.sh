@@ -26,12 +26,12 @@ get_done_message_based_on_status_code () {
 }
 
 # Clone the repository if this script is called from elsewhere (i.e., quick-setup from README)
-if [[ ! "$GIT_CLONE_URL" =~ (https:\/\/|git@)github.com(\/|:)cal-overflow\/dotfiles\.git ]]; then
-  echo -n "Cloning repository cal-overflow/dotfiles from GitHub... " | tee -a $DEBUG_LOGFILE
+if [[ ! "$GIT_CLONE_URL" =~ (https:\/\/|git@)github.com(\/|:)gajinkim\/dotfiles\.git ]]; then
+  echo -n "Cloning repository gajinkim/dotfiles from GitHub... " | tee -a $DEBUG_LOGFILE
 
   # First try cloning with SSH, then try HTTPS as a last resort
-  git clone git@github.com:cal-overflow/dotfiles.git > $DEBUG_LOGFILE 2>&1 ||\
-  git clone https://github.com/cal-overflow/dotfiles.git > $DEBUG_LOGFILE 2>&1
+  git clone git@github.com:gajinkim/dotfiles.git > $DEBUG_LOGFILE 2>&1 ||\
+  git clone https://github.com/gajinkim/dotfiles.git > $DEBUG_LOGFILE 2>&1
 
   cd dotfiles
   echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
