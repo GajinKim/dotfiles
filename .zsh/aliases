@@ -3,9 +3,9 @@ alias desktop='cd ~/Desktop'
 alias Desktop='cd ~/Desktop'
 alias downloads='cd ~/Downloads'
 alias Downloads='cd ~/Downloads'
-alias Workspace='cd ~/Workspace'
-alias workspace='cd ~/Workspace'
-alias ws='cd ~/Workspace'
+alias working='cd ~/Documents/VSCodeWorkspace'
+alias workspace='cd ~/Documents/VSCodeWorkspace'
+alias ws='cd ~/Documents/VSCodeWorkspace'
 alias refresh='source ~/.zshrc' # I'm lazy
 
 
