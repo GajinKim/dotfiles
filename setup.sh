@@ -25,43 +25,46 @@ get_done_message_based_on_status_code () {
   fi
 }
 
-
 # Clone the repository if this script is called from elsewhere (i.e., quick-setup from README)
-if [[ ! "$GIT_CLONE_URL" =~ (https:\/\/|git@)github.com(\/|:)cal-overflow\/dotfiles\.git ]]; then
-  echo -n "Cloning repository cal-overflow/dotfiles from GitHub... " | tee -a $DEBUG_LOGFILE
+if [[ ! "$GIT_CLONE_URL" =~ (https:\/\/|git@)github.com(\/|:)GajinKim\/dotfiles\.git ]]; then
+  echo -n "Cloning repository gajinkim/dotfiles from GitHub... " | tee -a $DEBUG_LOGFILE
 
   # First try cloning with SSH, then try HTTPS as a last resort
-  git clone git@github.com:cal-overflow/dotfiles.git > $DEBUG_LOGFILE 2>&1 ||\
-  git clone https://github.com/cal-overflow/dotfiles.git > $DEBUG_LOGFILE 2>&1
+  git clone git@github.com:gajinkim/dotfiles.git > $DEBUG_LOGFILE 2>&1 ||\
+  git clone https://github.com/gajinkim/dotfiles.git > $DEBUG_LOGFILE 2>&1
 
   cd dotfiles
   echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
 fi
 
-
 echo "\n${BOLD}Installations${RESET}" | tee -a $DEBUG_LOGFILE
 
 echo -n "Installing Oh My Zsh... " | tee -a $DEBUG_LOGFILE
 if [ ! -d ~/.oh-my-zsh ]; then
-	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended >> $DEBUG_LOGFILE 2>&1
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended >> $DEBUG_LOGFILE 2>&1
 else
-    echo "ZSH detected. Skipping installation" >> $DEBUG_LOGFILE
+  echo "ZSH detected. Skipping installation" >> $DEBUG_LOGFILE
 fi
 echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
 
 
 echo -n  "Installing Homebrew... " | tee -a $DEBUG_LOGFILE
 if [ ! $(command -v brew) ]; then
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" >> $DEBUG_LOGFILE 2>&1
-	(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/$(whoami)/.zprofile
-    	eval "$(/opt/homebrew/bin/brew shellenv)" >> $DEBUG_LOGFILE 2>&1
-    brew update >> $DEBUG_LOGFILE 2>&1
+  NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" >> $DEBUG_LOGFILE 2>&1
+
+  if [[ ! -f ~/.zprofile ]]; then
+    touch ~/.zprofile
+  fi
+
+  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)" >> $DEBUG_LOGFILE 2>&1
 else
     echo "Homebrew detected. Skipping installation" >> $DEBUG_LOGFILE
 fi
 echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
 
 echo "${BOLD}Installing formulae${RESET}" | tee -a $DEBUG_LOGFILE
+brew update >> $DEBUG_LOGFILE 2>&1
 while read formulae_name; do 
   echo -n "Installing formulae $formulae_name... " | tee -a $DEBUG_LOGFILE
   brew install $formulae_name >> $DEBUG_LOGFILE 2>&1
@@ -86,16 +89,32 @@ source ~/.zshrc
 echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
 
 
-echo -n "Installing Node LTS... " | tee -a $DEBUG_LOGFILE # necessary for some neovim plugins
+echo -n "Installing Node LTS... " | tee -a $DEBUG_LOGFILE # necessary for some LSP installs (managed through mason.neovim)
 nvm install >> $DEBUG_LOGFILE 2>&1
 echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
 nvm use | tee -a $DEBUG_LOGFILE
+
+echo -n "Configuring global python... " | tee -a $DEBUG_LOGFILE # necessary for some LSP installs (managed through mason.neovim)
+pyenv install --skip-existing 3.8 >> $DEBUG_LOGFILE 2>&1
+pyenv global 3.8 >> $DEBUG_LOGFILE 2>&1
+echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
+
+# echo "${BOLD}${RED}NOTE: POWERLINE IS NOT YET INSTALLED... FIX THIS${RESET}"
+echo -n "Installing Powerline fonts... " | tee -a $DEBUG_LOGFILE # necessary for neovim status line (airline)
+python3 -m pip install --user --break-system-packages powerline-status >> $DEBUG_LOGFILE 2>&1
+echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
+
+# # LSP installation (node modules)
+# echo -n "Installing LSP Servers via NPM... " | tee -a $DEBUG_LOGFILE # necessary for some neovim plugins
+# npm i -g vscode-langservers-extracted 2>&1
+# echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
 
 
 ##############
 # Neovim setup
 ##############
 echo "\n${BOLD}Neovim${RESET}" | tee -a $DEBUG_LOGFILE
+mkdir ~/.config/nvim >> $DEBUG_LOGFILE 2>&1
 echo -n "Saving repository config in ~/.config/nvim... " | tee -a $DEBUG_LOGFILE
 cp -r .config/nvim/* ~/.config/nvim/.
 echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
@@ -110,10 +129,17 @@ echo -n "Installing neovim plugins... " | tee -a $DEBUG_LOGFILE
 nvim --headless +PlugClean! +PlugInstall +qa
 echo $(get_done_message_based_on_status_code $?) | tee -a $DEBUG_LOGFILE
 
+echo "${BOLD}Installing LSP servers through neovim mason${RESET}" | tee -a $DEBUG_LOGFILE
+while read server; do 
+  echo -n "Installing language server $server... " | tee -a $DEBUG_LOGFILE
+  nvim --headless  -c "MasonInstall $server" -c qa >> $DEBUG_LOGFILE 2>&1
+  echo $(get_done_message_based_on_status_code $?)
+done < language_servers.txt
+
 
 echo "\n${BOLD}Git ${LIGHT_GRAY}(interactive)${RESET}" | tee -a $DEBUG_LOGFILE
-git config --global commit.gpgsign true
-echo "${LIGHT_GRAY}commit gpg signing: enabled${RESET}" | tee -a $DEBUG_LOGFILE
+git config --global commit.gpgsign false
+echo "${LIGHT_GRAY}commit gpg signing: disabled${RESET}" | tee -a $DEBUG_LOGFILE
 git config --global core.editor "vim"
 echo "${LIGHT_GRAY}default editor: vim${RESET}" | tee -a $DEBUG_LOGFILE
 

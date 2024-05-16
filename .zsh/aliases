@@ -6,7 +6,7 @@ alias Downloads='cd ~/Downloads'
 alias working='cd ~/Documents/VSCodeWorkspace'
 alias workspace='cd ~/Documents/VSCodeWorkspace'
 alias ws='cd ~/Documents/VSCodeWorkspace'
-alias refresh='source ~/.zshrc' # I'm lazy
+alias refresh='source ~/.zshrc'
 
 
 # Git aliases
@@ -19,7 +19,7 @@ alias commit="git commit -m"
 alias uncommit="git reset HEAD~1"
 
 # Workflow aliases
-alias n='nvim' # what can I say, I'm lazy
+alias n='nvim'
 alias venv='source ./venv/bin/activate' # Save a lil bit of time
 alias :q="exit"
 
