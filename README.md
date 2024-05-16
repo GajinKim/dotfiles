@@ -11,7 +11,7 @@ For best results, the following software should be installed.
 I've created a bash script that installs all of my preferred tools and saves my configuration locally. \
 To run the script, simply run the following command.
 ```bash
-zsh -c "$(curl -fsSL https://raw.githubusercontent.com/cal-overflow/dotfiles/main/setup.sh)" && source ~/.zshrc
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/gajinkim/dotfiles/main/setup.sh)" && source ~/.zshrc
 ```
 
 <small>Note, this has only been tested on unix-based operating systems with zsh installed.</small>
