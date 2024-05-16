@@ -16,6 +16,10 @@ zsh -c "$(curl -fsSL https://raw.githubusercontent.com/GajinKim/dotfiles/main/se
 
 <small>Note, this has only been tested on unix-based operating systems with zsh installed.</small>
 
+## PowerLine
+Powerline fonts is not installed by default, so I will have to clone a repo and run the `./install.sh` script everytime
+- [Link to Powerline fonts repo](https://github.com/powerline/fonts)
+
 ---
 
 ## [zsh](https://www.zsh.org/)
