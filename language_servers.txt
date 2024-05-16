@@ -19,3 +19,4 @@ terraform-ls
 typescript-language-server
 vetur-vls
 yaml-language-server
+intelephense
