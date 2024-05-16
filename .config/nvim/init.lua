@@ -29,6 +29,10 @@ set.expandtab=true
 set.shiftwidth=2
 set.tabstop=4
 
+-- Enable NERDTree and disable Netrw
+vim.g.NERDTreeShowHidden=1 -- Show hidden files
+vim.g.NERDTreeHijackNetrw=1
+-- vim.g.NERDTreeShowLineNumbers=0
 
 -- Enable undo across neovim sessions
 vim.opt.undofile=true
