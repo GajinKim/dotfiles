@@ -1,38 +1,32 @@
--- Find the complete setup process at https://github.com/cal-overflow/dotfiles
+local toggle_background = require('lua_functions.toggle_background')
+
+-- Bindings
+vim.api.nvim_set_keymap('n', '<Tab>', ':lua require("lua_functions.toggle_background").toggle_background()<CR>', { noremap = true, silent = true })
 
 -- Options
-local set = vim.opt
+vim.opt.clipboard='unnamedplus'
+vim.opt.completeopt='noinsert,menuone,noselect'
+vim.opt.cursorline=true
+vim.opt.hidden=true
+vim.opt.inccommand='split'
+vim.opt.mouse='a'
+vim.opt.number=true
+vim.opt.relativenumber=true
+vim.opt.modifiable=true
+vim.opt.guicursor='n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,a:blinkon1'
+vim.opt.spell=true
 
-set.background='dark'
-set.clipboard='unnamedplus'
-set.completeopt='noinsert,menuone,noselect'
-set.cursorline=true
-set.hidden=true
-set.inccommand='split'
-set.mouse='a'
-set.number=true
-set.relativenumber=true
-set.modifiable=true
-set.guicursor='n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,a:blinkon1'
-set.spell=true
-
-set.showmode=false
-set.splitbelow=true
-set.splitright=true
-set.title=true
-set.ttimeoutlen=0
-set.wildmenu=true
-
+vim.opt.showmode=false
+vim.opt.splitbelow=true
+vim.opt.splitright=true
+vim.opt.title=true
+vim.opt.ttimeoutlen=0
+vim.opt.wildmenu=true
 
 -- Tabs size
-set.expandtab=true
-set.shiftwidth=2
-set.tabstop=4
-
--- Enable NERDTree and disable Netrw
-vim.g.NERDTreeShowHidden=1 -- Show hidden files
-vim.g.NERDTreeHijackNetrw=1
--- vim.g.NERDTreeShowLineNumbers=0
+vim.opt.expandtab=true
+vim.opt.shiftwidth=2
+vim.opt.tabstop=4
 
 -- Enable undo across neovim sessions
 vim.opt.undofile=true

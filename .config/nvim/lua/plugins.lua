@@ -3,8 +3,6 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin')
     -- Utilities
     Plug('jiangmiao/auto-pairs')
-    Plug('preservim/nerdtree')
-    Plug('preservim/nerdcommenter')
     Plug('ap/vim-css-color')
     Plug('godlygeek/tabular')
     Plug('plasticboy/vim-markdown') -- Note tabular MUST be defined before this
