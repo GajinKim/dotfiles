@@ -1,7 +1,5 @@
 -- Configure theme
-local selected_theme = 'kanagawa-wave'
-vim.cmd('colorscheme '  .. selected_theme)
-vim.g.colorscheme=selected_theme
+vim.cmd("colorscheme catppuccin-frappe")
 
 -- Enable terminal colors
 vim.cmd([[

@@ -1,4 +1,4 @@
-# cal-overflow Neovim configuration
+# Neovim configuration
 
 ## Structure
 
@@ -9,6 +9,8 @@ This script contains basic Neovim settings. Additionally, the script loads scrip
 
 #### `lua/`
 A directory containing lua scripts with basic configurations for plugins.
+
+[Catppuccin Theme](https://github.com/catppuccin/nvim)
 
 #### `vim/`
 A directory containing vim scripts with basic mappings and configurations for plugins.

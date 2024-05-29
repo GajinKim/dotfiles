@@ -8,7 +8,6 @@ require("diffview").setup({
 })
 vim.cmd 'command! Diff DiffviewOpen' -- create alias
 
-
 -- Configure telescope
 require('telescope').setup({
   pickers = {
