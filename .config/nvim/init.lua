@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 -- Options
 vim.opt.background='dark'
+=======
+local toggle_background = require('lua_functions.toggle_background')
+
+-- Bindings
+vim.api.nvim_set_keymap('n', '<Tab>', ':lua require("lua_functions.toggle_background").toggle_background()<CR>', { noremap = true, silent = true })
+
+-- Options
+>>>>>>> 8a9c15dda873205d116a1bd9d354838119df7ecd
 vim.opt.clipboard='unnamedplus'
 vim.opt.completeopt='noinsert,menuone,noselect'
 vim.opt.cursorline=true
