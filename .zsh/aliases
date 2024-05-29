@@ -1,17 +1,17 @@
 # General aliases
 alias desktop='cd ~/Desktop'
-alias Desktop='cd ~/Desktop'
 alias downloads='cd ~/Downloads'
-alias Downloads='cd ~/Downloads'
 alias working='cd ~/Documents/VSCodeWorkspace'
 alias workspace='cd ~/Documents/VSCodeWorkspace'
 alias ws='cd ~/Documents/VSCodeWorkspace'
 alias refresh='source ~/.zshrc'
-
+alias configs='cd ~/.config'
+alias config='cd ~/.config'
 
 # Git aliases
 alias g="git"
 alias ga="git add"
+alias add="git add"
 alias gco="git checkout"
 alias push="git push"
 alias pull="git pull"

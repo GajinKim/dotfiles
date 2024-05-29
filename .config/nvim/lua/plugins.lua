@@ -1,11 +1,17 @@
 local Plug = vim.fn['plug#']
 
+-- :PlugInstall
+-- :PlugClean
+-- :PlugUpdate
+
 vim.call('plug#begin')
     -- Utilities
     Plug('jiangmiao/auto-pairs')
     Plug('ap/vim-css-color')
     Plug('godlygeek/tabular')
     Plug('plasticboy/vim-markdown') -- Note tabular MUST be defined before this
+    Plug('nvim-tree/nvim-tree.lua')
+    Plug('nvim-tree-nvim-web-devicons')
 
     -- LSP (Language Server)
     Plug('neovim/nvim-lspconfig')
@@ -20,7 +26,6 @@ vim.call('plug#begin')
     -- Appearance
     Plug('vim-airline/vim-airline')
     Plug('vim-airline/vim-airline-themes')
-    Plug('rebelot/kanagawa.nvim')
     Plug('catppuccin/nvim')
 
     -- Git
