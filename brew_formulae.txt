@@ -6,4 +6,5 @@ lua-language-server
 jq
 yq
 karabiner-elements
+font-fira-code
 font-3270-nerd-font
