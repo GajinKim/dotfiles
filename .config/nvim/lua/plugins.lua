@@ -1,8 +1,6 @@
 local Plug = vim.fn['plug#']
 
--- :PlugInstall
--- :PlugClean
--- :PlugUpdate
+-- :PlugInstall & :PlugUpdate & :PlugClean
 
 vim.call('plug#begin')
     -- Utilities
@@ -11,7 +9,7 @@ vim.call('plug#begin')
     Plug('godlygeek/tabular')
     Plug('plasticboy/vim-markdown') -- Note tabular MUST be defined before this
     Plug('nvim-tree/nvim-tree.lua')
-    Plug('nvim-tree-nvim-web-devicons')
+    Plug('nvim-tree/nvim-web-devicons')
 
     -- LSP (Language Server)
     Plug('neovim/nvim-lspconfig')
