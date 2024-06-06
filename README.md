@@ -72,6 +72,3 @@ Some "translations" from regular vim config to lua that may be helpful:
 | :-: | :-: |
 | `let g:variable='value'` | `vim.g.variable='value'` |
 
-
-## Keyboard
-I have saved my custom keyboard firmware (GMK) configuration in this repository. You can learn more about how to compile and flash onto a compatible keyboard [here](https://docs.qmk.fm/#/newbs).
