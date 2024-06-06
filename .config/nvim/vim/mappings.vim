@@ -16,5 +16,5 @@ noremap nc :NvimTreeCollapse<CR>
 noremap nd :NvimWebDeviconsHiTest<CR>
 
 " Catppuccin
-noremap <S-Del> :colorscheme catppuccin-macchiato<CR>
+noremap <S-Del> :colorscheme catppuccin-frappe<CR>
 noremap <C-Del> :colorscheme catppuccin-latte<CR>

@@ -8,8 +8,9 @@ For best results, the following software should be installed.
 
 
 ## Automated setup
-I've created a bash script that installs all of my preferred tools and saves my configuration locally. \
-To run the script, simply run the following command.
+Bash script that...
+1. Installs tools and plugins
+2. Saves configurations
 ```bash
 zsh -c "$(curl -fsSL https://raw.githubusercontent.com/GajinKim/dotfiles/main/setup.sh)" && source ~/.zshrc
 ```
@@ -22,10 +23,22 @@ Powerline fonts is not installed by default, so I will have to clone a repo and 
 
 ---
 
+## [iTerm2](https://iterm2.com/downloads.html) 
+Preferred terminal (macOS Terminal Replacement)
+
 ## [zsh](https://www.zsh.org/)
-Zsh jazzed up with [Oh my ZSH](https://ohmyz.sh/) is my shell of choice.
+Zsh jazzed up with [Oh my ZSH](https://ohmyz.sh/)
 
 ## [Neovim](https://neovim.io)
+
+## Fonts
+Set fonts in iTerm2 by going to `iTerm2 > Settings > Profiles > Text`
+| Font Type | Name | Install | Style | Size | 
+| --------- | ---- | ------- | ----- | ---- |
+| Font | [Fira Code](https://github.com/tonsky/FiraCode?tab=readme-ov-file) | [Install](https://github.com/tonsky/FiraCode/wiki/Installing) | Light | 20 |
+| Non-ASCII Font | [3270 Nerd Font](https://www.nerdfonts.com/font-downloads) | [Install](https://formulae.brew.sh/cask/font-3270-nerd-font) | Condensed | 20 |
+
+<small>The reason I have a separate Non-ASCII font is to show icons when opening nvim-tree</small>
 
 Resources I've found helpful while learning Neovim:
 - [Elves Sousa - My basic Neovim setup](https://dev.to/elvessousa/my-basic-neovim-setup-253l)
