@@ -6,12 +6,20 @@ List of Manual Installs...
 - Python 3.8 <!-- for cfn lint -->
 - Node LTS <!-- for various npm packages -->
 
-## Manual Installations
+## Script (setup.sh) installs 
+[Oh my ZSH](https://ohmyz.sh/)
 
-### [ZSH](https://www.zsh.org/) + [Oh my ZSH](https://ohmyz.sh/)
-- ZSH configs depends on pyenv, [Homebrew](https://github.com/homebrew/install?tab=readme-ov-file#uninstall-homebrew), and [nvm](https://github.com/nvm-sh/nvm)
+[Homebrew](https://github.com/homebrew/install?tab=readme-ov-file#uninstall-homebrew) and the following `formulae` (found in `brew_formulae.txt`)
+- brew install [nvm](https://github.com/nvm-sh/nvm)
+- brew install `pyenv`
+- brew install [neovim](https://neovim.io)
+- brew install `rip-grep`
+- brew install `lua-language-server`
 
-### [Neovim](https://neovim.io)
+
+## Notes
+
+### [ZSH](https://www.zsh.org/) (preferred shell)
 
 ### [iTerm2](https://iterm2.com/downloads.html) (preferred terminal for macOS)
 - Use integrated terminal for Linux distros
