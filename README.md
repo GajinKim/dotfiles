@@ -10,6 +10,7 @@ List of Manual Installs...
 
 ### [zsh](https://www.zsh.org/)
 Zsh jazzed up with [Oh my ZSH](https://ohmyz.sh/)
+- Zsh configs depends on pyenv, [Homebrew](https://github.com/homebrew/install?tab=readme-ov-file#uninstall-homebrew), and [nvm](https://github.com/nvm-sh/nvm)
 
 ### [Neovim](https://neovim.io)
 
