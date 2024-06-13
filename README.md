@@ -2,10 +2,20 @@
 Some of my configuration files.
 
 ## Dependencies
-For best results, the following software should be installed.
+List of Manual Installs...
 - Python 3.8 <!-- for cfn lint -->
 - Node LTS <!-- for various npm packages -->
 
+## Nice to Haves...
+
+### [zsh](https://www.zsh.org/)
+Zsh jazzed up with [Oh my ZSH](https://ohmyz.sh/)
+
+### [Neovim](https://neovim.io)
+
+### [iTerm2](https://iterm2.com/downloads.html) 
+- Preferred terminal (macOS Terminal Replacement)
+- Use integrated terminal for Linux
 
 ## Automated setup
 Bash script that...
@@ -22,14 +32,6 @@ Powerline fonts is not installed by default, so I will have to clone a repo and 
 - [Link to Powerline fonts repo](https://github.com/powerline/fonts)
 
 ---
-
-## [iTerm2](https://iterm2.com/downloads.html) 
-Preferred terminal (macOS Terminal Replacement)
-
-## [zsh](https://www.zsh.org/)
-Zsh jazzed up with [Oh my ZSH](https://ohmyz.sh/)
-
-## [Neovim](https://neovim.io)
 
 ## Fonts
 Set fonts in iTerm2 by going to `iTerm2 > Settings > Profiles > Text`
