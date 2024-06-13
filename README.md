@@ -6,17 +6,15 @@ List of Manual Installs...
 - Python 3.8 <!-- for cfn lint -->
 - Node LTS <!-- for various npm packages -->
 
-## Nice to Haves...
+## Manual Installations
 
-### [zsh](https://www.zsh.org/)
-Zsh jazzed up with [Oh my ZSH](https://ohmyz.sh/)
-- Zsh configs depends on pyenv, [Homebrew](https://github.com/homebrew/install?tab=readme-ov-file#uninstall-homebrew), and [nvm](https://github.com/nvm-sh/nvm)
+### [ZSH](https://www.zsh.org/) + [Oh my ZSH](https://ohmyz.sh/)
+- ZSH configs depends on pyenv, [Homebrew](https://github.com/homebrew/install?tab=readme-ov-file#uninstall-homebrew), and [nvm](https://github.com/nvm-sh/nvm)
 
 ### [Neovim](https://neovim.io)
 
-### [iTerm2](https://iterm2.com/downloads.html) 
-- Preferred terminal (macOS Terminal Replacement)
-- Use integrated terminal for Linux
+### [iTerm2](https://iterm2.com/downloads.html) (preferred terminal for macOS)
+- Use integrated terminal for Linux distros
 
 ## Automated setup
 Bash script that...
