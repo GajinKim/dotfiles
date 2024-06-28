@@ -11,7 +11,7 @@ vim.call('plug#begin')
     Plug('nvim-tree/nvim-tree.lua')
     Plug('nvim-tree/nvim-web-devicons')
 
-    -- LSP (Language Server)
+    -- Plugins used to install LSP (Language Server)
     Plug('neovim/nvim-lspconfig')
     Plug('williamboman/mason.nvim')
     Plug('williamboman/mason-lspconfig.nvim')

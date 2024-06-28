@@ -38,7 +38,7 @@ Set fonts in iTerm2 by going to `iTerm2 > Settings > Profiles > Text`
 | Font | [Fira Code](https://github.com/tonsky/FiraCode?tab=readme-ov-file) | [Install](https://github.com/tonsky/FiraCode/wiki/Installing) | Light | 20 |
 | Non-ASCII Font | [3270 Nerd Font](https://www.nerdfonts.com/font-downloads) | [Install](https://formulae.brew.sh/cask/font-3270-nerd-font) | Condensed | 20 |
 
-<small>The reason I have a separate Non-ASCII font is to show icons when opening nvim-tree</small>
+<small>Purpose of Non-ASCII font is to show icons when opening nvim-tree</small>
 
 Resources I've found helpful while learning Neovim:
 - [Elves Sousa - My basic Neovim setup](https://dev.to/elvessousa/my-basic-neovim-setup-253l)
@@ -47,6 +47,12 @@ Resources I've found helpful while learning Neovim:
   - [Heiker Curiel - Configuring Neovim using Lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
   - [Meet Rajesh Gor - Configure Neovim in Lua
 ](https://dev.to/mr_destructive/configure-neovim-in-lua-4can)
+
+## Language Server Protocols (LSP)
+Installed using [mason.nvim](https://github.com/williamboman/mason.nvim)
+- My language servers: `languages_servers.txt`
+- Available language servers: [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim#available-lsp-servers)
+
 
 ### Notes to self
 #### Neovim
