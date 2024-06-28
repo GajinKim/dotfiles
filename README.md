@@ -2,10 +2,27 @@
 Some of my configuration files.
 
 ## Dependencies
-For best results, the following software should be installed.
+List of Manual Installs...
 - Python 3.8 <!-- for cfn lint -->
 - Node LTS <!-- for various npm packages -->
 
+## Script (setup.sh) installs 
+[Oh my ZSH](https://ohmyz.sh/)
+
+[Homebrew](https://github.com/homebrew/install?tab=readme-ov-file#uninstall-homebrew) and the following `formulae` (found in `brew_formulae.txt`)
+- brew install [nvm](https://github.com/nvm-sh/nvm)
+- brew install `pyenv`
+- brew install [neovim](https://neovim.io)
+- brew install `rip-grep`
+- brew install `lua-language-server`
+
+
+## Notes
+
+### [ZSH](https://www.zsh.org/) (preferred shell)
+
+### [iTerm2](https://iterm2.com/downloads.html) (preferred terminal for macOS)
+- Use integrated terminal for Linux distros
 
 ## Automated setup
 Bash script that...
@@ -22,14 +39,6 @@ Powerline fonts is not installed by default, so I will have to clone a repo and 
 - [Link to Powerline fonts repo](https://github.com/powerline/fonts)
 
 ---
-
-## [iTerm2](https://iterm2.com/downloads.html) 
-Preferred terminal (macOS Terminal Replacement)
-
-## [zsh](https://www.zsh.org/)
-Zsh jazzed up with [Oh my ZSH](https://ohmyz.sh/)
-
-## [Neovim](https://neovim.io)
 
 ## Fonts
 Set fonts in iTerm2 by going to `iTerm2 > Settings > Profiles > Text`
