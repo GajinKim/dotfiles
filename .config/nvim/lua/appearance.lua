@@ -9,6 +9,3 @@ if exists('+termguicolors')
   set termguicolors
 endif
 ]])
-
-
--- Airline appearance is managed in `vim/airline.vim`
