@@ -62,6 +62,14 @@ Installed using [mason.nvim](https://github.com/williamboman/mason.nvim)
 - My language servers: `languages_servers.txt`
 - Available language servers: [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim#available-lsp-servers)
 
+Tools: 
+- Tools: `:h mason.nvim` 
+- View LSP packages: `:Mason`
+
+Installing LSP packages: 
+- `:MasonInstall <package-name>`
+- `:LspInstall <package-name>` 
+- Headless mode: `nvim --headless -c "MasonInstall lua-language-server rust-analyzer" -c qall`
 
 ### Notes to self
 #### Neovim
