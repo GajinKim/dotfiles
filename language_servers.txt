@@ -1,5 +1,4 @@
 bash-language-server
-cfn-lint
 clangd
 cmake-language-server
 css-lsp
