@@ -30,7 +30,6 @@ vim.opt.undofile=true
 -- Load `vim/` scripts
 vim.cmd('so ~/.config/nvim/vim/init.vim')
 
--- Load `lua/` scipts
+-- Load `lua/` scripts
 require('init') -- Loads from `~/.config/nvim/lua`
--- require('telescope-themes') -- TODO figure out what's going on here
 
