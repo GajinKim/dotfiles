@@ -11,6 +11,7 @@ vim.call('plug#begin')
     Plug('nvim-tree/nvim-tree.lua')
     Plug('nvim-tree/nvim-web-devicons')
     Plug('folke/which-key.nvim') -- :WhichKey
+    Plug('ggandor/leap.nvim')
 
     -- Plugins used to install LSP (Language Server)
     Plug('neovim/nvim-lspconfig')
