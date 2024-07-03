@@ -10,6 +10,7 @@ vim.call('plug#begin')
     Plug('plasticboy/vim-markdown') -- Note tabular MUST be defined before this
     Plug('nvim-tree/nvim-tree.lua')
     Plug('nvim-tree/nvim-web-devicons')
+    Plug('folke/which-key.nvim') -- :WhichKey
 
     -- Plugins used to install LSP (Language Server)
     Plug('neovim/nvim-lspconfig')

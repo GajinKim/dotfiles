@@ -22,6 +22,10 @@ alias pull="git pull"
 alias commit="git commit -m"
 alias uncommit="git reset HEAD~1"
 
+# Cloud aliases
+alias tf="terraform"
+alias tg="terragrunt"
+
 # Workflow aliases
 alias n='nvim'
 alias venv='source ./venv/bin/activate' # Save a lil bit of time
