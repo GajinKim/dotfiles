@@ -1,9 +1,10 @@
 # General aliases
 alias desktop='cd ~/Desktop'
 alias downloads='cd ~/Downloads'
-alias working='cd ~/Documents/VSCodeWorkspace'
-alias workspace='cd ~/Documents/VSCodeWorkspace'
-alias ws='cd ~/Documents/VSCodeWorkspace'
+alias working='cd ~/Workspace'
+alias workspace='cd ~/Workspace'
+alias ws='cd ~/Workspace'
+alias sai='cd ~/SAIWorkspace'
 alias refresh='source ~/.zshrc'
 alias configs='cd ~/.config'
 alias config='cd ~/.config'
