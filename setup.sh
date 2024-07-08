@@ -7,7 +7,7 @@ LIGHT_GRAY='\033[90m'
 RED='\033[0;31m'
 RESET='\033[0m'
 
-DEBUG_LOGFILE="$(pwd)/setup_logfile"
+DEBUG_LOGFILE="$(pwd)/logfile_setup"
 ERROR_DID_OCCUR=1
 
 GIT_CLONE_URL=$(git config --get remote.origin.url)

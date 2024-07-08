@@ -1,0 +1,2147 @@
+fatal: destination path 'dotfiles' already exists and is not an empty directory.
+Done
+
+Installations
+Installing Oh My Zsh... ZSH detected. Skipping installation
+Done
+Installing Homebrew... Homebrew detected. Skipping installation
+Done
+Installing formulae
+==> Updating Homebrew...
+==> Homebrew collects anonymous analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics have been recorded yet (nor will be during this `brew` run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+h26forge
+wcurl
+==> New Casks
+airdash
+blip
+font-afacad-flux
+pia
+==> Outdated Formulae
+ca-certificates
+gdbm
+krb5
+libxml2
+msgpack
+pcre2
+pyenv
+
+You have 7 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+Installing formulae nvm... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: nvm 0.39.7 is already installed and up-to-date.
+To reinstall 0.39.7, run:
+  brew reinstall nvm
+Installing formulae pyenv... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+pyenv 2.4.5 is already installed but outdated (so it will be upgraded).
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/manifests/2.4.7
+==> Fetching dependencies for pyenv: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-07-02
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:73eb1a6bf9a5e12ee3f1acd295a4aaa28f08a9125a94342ddbf0aa65349c9db2
+==> Fetching pyenv
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/blobs/sha256:b26ab45e3bfe8281134ac43812ee27e4ae379fa79e7de76ac41f4ad7c7d1a55b
+==> Upgrading pyenv
+  2.4.5 -> 2.4.7 
+==> Installing dependencies for pyenv: ca-certificates
+==> Installing pyenv dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-07-02
+Already downloaded: /home/gajin/.cache/Homebrew/downloads/f1e786c502c23070efef1c7716aeaea181b28fd0cdbc5327d6d7c243b49e7700--ca-certificates-2024-07-02.bottle_manifest.json
+==> Pouring ca-certificates--2024-07-02.all.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ca-certificates/2024-07-02: 4 files, 246.9KB
+==> Installing pyenv
+==> Pouring pyenv--2.4.7.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/pyenv/2.4.7: 1,215 files, 4.4MB
+==> Running `brew cleanup pyenv`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /home/linuxbrew/.linuxbrew/Cellar/pyenv/2.4.5... (1,213 files, 4.4MB)
+Removing: /home/gajin/.cache/Homebrew/pyenv_bottle_manifest--2.4.5... (26.7KB)
+Removing: /home/gajin/.cache/Homebrew/pyenv--2.4.5... (787.7KB)
+==> Upgrading 1 dependent of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+krb5 1.21.2 -> 1.21.3
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.21.3
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+Installing formulae neovim... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: neovim 0.10.0 is already installed and up-to-date.
+To reinstall 0.10.0, run:
+  brew reinstall neovim
+Installing formulae ripgrep... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: ripgrep 14.1.0 is already installed and up-to-date.
+To reinstall 14.1.0, run:
+  brew reinstall ripgrep
+Installing formulae lua-language-server... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: lua-language-server 3.9.3 is already installed and up-to-date.
+To reinstall 3.9.3, run:
+  brew reinstall lua-language-server
+Installing formulae jq... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: jq 1.7.1 is already installed and up-to-date.
+To reinstall 1.7.1, run:
+  brew reinstall jq
+Installing formulae yq... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: yq 4.44.2 is already installed and up-to-date.
+To reinstall 4.44.2, run:
+  brew reinstall yq
+Installing formulae karabiner-elements... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: No available formula with the name "karabiner-elements".
+Error: No formulae found for karabiner-elements.
+==> Searching for similarly named formulae...
+Installing formulae font-fira-code... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: No available formula with the name "font-fira-code". Did you mean fontforge?
+==> Searching for similarly named formulae...
+==> Formulae
+fontforge
+
+To install fontforge, run:
+  brew install fontforge
+Installing formulae font-3270-nerd-font... ==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: No available formula with the name "font-3270-nerd-font".
+Error: No formulae found for font-3270-nerd-font.
+==> Searching for similarly named formulae...
+
+Configurations
+Configuring ZSH... Done
+Configuring NVM... Done
+Installing Node LTS... Found '/home/gajin/Workspace/dotfiles/dotfiles/.nvmrc' with version <lts/*>
+Downloading and installing node v20.15.1...
+Downloading https://nodejs.org/dist/v20.15.1/node-v20.15.1-linux-x64.tar.xz...
+##                                                                                                                                                                                                              1.3%############                                                                                                                                                                                                    5.9%#####################                                                                                                                                                                                          10.4%##############################                                                                                                                                                                                 15.0%########################################                                                                                                                                                                       19.6%#################################################                                                                                                                                                              24.2%##########################################################                                                                                                                                                     28.8%####################################################################                                                                                                                                           33.3%#############################################################################                                                                                                                                  37.9%#######################################################################################                                                                                                                        42.4%################################################################################################                                                                                                               47.0%#########################################################################################################                                                                                                      51.7%###################################################################################################################                                                                                            56.2%############################################################################################################################                                                                                   60.7%#####################################################################################################################################                                                                          65.3%###############################################################################################################################################                                                                69.9%########################################################################################################################################################                                                       74.5%##################################################################################################################################################################                                             79.1%###########################################################################################################################################################################                                    83.6%####################################################################################################################################################################################                           88.2%##############################################################################################################################################################################################                 92.8%#######################################################################################################################################################################################################        97.4%############################################################################################################################################################################################################# 100.0%
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v20.15.1 (npm v10.7.0)
+Done
+Found '/home/gajin/Workspace/dotfiles/dotfiles/.nvmrc' with version <lts/*>
+Now using node v20.15.1 (npm v10.7.0)
+Configuring global python... Downloading Python-3.8.19.tar.xz...
+-> https://www.python.org/ftp/python/3.8.19/Python-3.8.19.tar.xz
+Installing Python-3.8.19...
+
+BUILD FAILED (Ubuntu 24.04 using python-build 2.4.3)
+
+Inspect or clean up the working tree at /tmp/python-build.20240708171352.32228
+Results logged to /tmp/python-build.20240708171352.32228.log
+
+Last 10 log lines:
+  File "/tmp/python-build.20240708171352.32228/Python-3.8.19/Lib/ensurepip/__init__.py", line 209, in _main
+    return _bootstrap(
+  File "/tmp/python-build.20240708171352.32228/Python-3.8.19/Lib/ensurepip/__init__.py", line 128, in _bootstrap
+    return _run_pip(args + [p[0] for p in _PROJECTS], additional_paths)
+  File "/tmp/python-build.20240708171352.32228/Python-3.8.19/Lib/ensurepip/__init__.py", line 37, in _run_pip
+    return subprocess.run(cmd, check=True).returncode
+  File "/tmp/python-build.20240708171352.32228/Python-3.8.19/Lib/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/tmp/python-build.20240708171352.32228/Python-3.8.19/python', '-c', '
+import runpy
+import sys
+sys.path = [\'/tmp/tmpvpikw99z/setuptools-56.0.0-py3-none-any.whl\', \'/tmp/tmpvpikw99z/pip-23.0.1-py3-none-any.whl\'] + sys.path
+sys.argv[1:] = [\'install\', \'--no-cache-dir\', \'--no-index\', \'--find-links\', \'/tmp/tmpvpikw99z\', \'--root\', \'/\', \'--upgrade\', \'setuptools\', \'pip\']
+runpy.run_module("pip", run_name="__main__", alter_sys=True)
+']' returned non-zero exit status 1.
+make: *** [Makefile:1198: install] Error 1
+pyenv: version `3.8' not installed
+An error occured (See logs for details)
+Installing Powerline fonts... /usr/bin/python3: No module named pip
+An error occured (See logs for details)
+
+Neovim
+mkdir: cannot create directory ‘/home/gajin/.config/nvim’: File exists
+Saving repository config in ~/.config/nvim... Done
+Installing vim-plug...   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 83509  100 83509    0     0   669k      0 --:--:-- --:--:-- --:--:--  673k
+Done
+Installing neovim plugins... Done
+Installing LSP servers through neovim mason
+Installing language server bash-language-server... Wrote to /home/gajin/.local/share/nvim/mason/staging/bash-language-server/package.json:
+
+{
+  "name": "@mason/bash-language-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package bash-language-server@5.4.0…
+
+added 40 packages, and audited 41 packages in 2s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/bash-lsp/bash-language-server/server-5.4.0/vscode-client/package.json"…Installing language server clangd... Downloading file "https://github.com/clangd/clangd/releases/download/18.1.3/clangd-linux-18.1.3.zip"…
+Unpacking "clangd-linux-18.1.3.zip"…
+Archive:  clangd-linux-18.1.3.zip
+  inflating: ./clangd_18.1.3/LICENSE.TXT  
+  inflating: ./clangd_18.1.3/bin/clangd  
+   creating: ./clangd_18.1.3/lib/clang/
+   creating: ./clangd_18.1.3/lib/clang/18/
+   creating: ./clangd_18.1.3/lib/clang/18/include/
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_builtin_vars.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_cmath.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_complex_builtins.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_device_functions.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_intrinsics.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_libdevice_declares.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_math.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_math_forward_declares.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_runtime_wrapper.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_cuda_texture_intrinsics.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_hip_cmath.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_hip_libdevice_declares.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_hip_math.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_hip_runtime_wrapper.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__clang_hip_stdlib.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stdarg___gnuc_va_list.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stdarg___va_copy.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stdarg_va_arg.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stdarg_va_copy.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stdarg_va_list.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_max_align_t.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_null.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_nullptr_t.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_offsetof.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_ptrdiff_t.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_rsize_t.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_size_t.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_unreachable.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_wchar_t.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__stddef_wint_t.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__wmmintrin_aes.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/__wmmintrin_pclmul.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/adcintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/adxintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/altivec.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ammintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/amxcomplexintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/amxfp16intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/amxintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm64intr.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_acle.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_bf16.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_cde.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_cmse.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_fp16.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_mve.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_neon.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_neon_sve_bridge.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_sme.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_sve.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/arm_vector_types.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/armintr.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx2intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512bf16intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512bitalgintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512bwintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512cdintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512dqintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512erintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512fintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512fp16intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512ifmaintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512ifmavlintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512pfintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vbmi2intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vbmiintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vbmivlintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vlbf16intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vlbitalgintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vlbwintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vlcdintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vldqintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vlfp16intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vlintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vlvbmi2intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vlvnniintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vlvp2intersectintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vnniintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vp2intersectintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vpopcntdqintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avx512vpopcntdqvlintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avxifmaintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avxintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avxneconvertintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avxvnniint16intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avxvnniint8intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/avxvnniintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/bmi2intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/bmiintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/builtins.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cet.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cetintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cldemoteintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/clflushoptintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/clwbintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/clzerointrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cmpccxaddintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cpuid.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/crc32intrin.h  
+   creating: ./clangd_18.1.3/lib/clang/18/include/cuda_wrappers/
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cuda_wrappers/algorithm  
+   creating: ./clangd_18.1.3/lib/clang/18/include/cuda_wrappers/bits/
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cuda_wrappers/bits/basic_string.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cuda_wrappers/bits/basic_string.tcc  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cuda_wrappers/bits/shared_ptr_base.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cuda_wrappers/cmath  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cuda_wrappers/complex  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/cuda_wrappers/new  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/emmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/enqcmdintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/f16cintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/float.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/fma4intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/fmaintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/fxsrintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/gfniintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/hexagon_circ_brev_intrinsics.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/hexagon_protos.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/hexagon_types.h  
+   creating: ./clangd_18.1.3/lib/clang/18/include/hlsl/
+  inflating: ./clangd_18.1.3/lib/clang/18/include/hlsl.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/hlsl/hlsl_basic_types.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/hlsl/hlsl_intrinsics.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/hresetintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/htmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/htmxlintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/hvx_hexagon_protos.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ia32intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/immintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/inttypes.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/invpcidintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/iso646.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/keylockerintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/larchintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/lasxintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/limits.h  
+   creating: ./clangd_18.1.3/lib/clang/18/include/llvm_libc_wrappers/
+  inflating: ./clangd_18.1.3/lib/clang/18/include/llvm_libc_wrappers/assert.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/llvm_libc_wrappers/ctype.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/llvm_libc_wrappers/inttypes.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/llvm_libc_wrappers/stdio.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/llvm_libc_wrappers/stdlib.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/llvm_libc_wrappers/string.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/llvm_libc_wrappers/time.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/lsxintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/lwpintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/lzcntintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/mm3dnow.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/mm_malloc.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/mmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/module.modulemap  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/movdirintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/msa.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/mwaitxintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/nmmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/omp-tools.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/omp.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/opencl-c-base.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/opencl-c.h  
+   creating: ./clangd_18.1.3/lib/clang/18/include/openmp_wrappers/
+  inflating: ./clangd_18.1.3/lib/clang/18/include/openmp_wrappers/__clang_openmp_device_functions.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/openmp_wrappers/cmath  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/openmp_wrappers/complex  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/openmp_wrappers/complex.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/openmp_wrappers/complex_cmath.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/openmp_wrappers/math.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/openmp_wrappers/new  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/pconfigintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/pkuintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/pmmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/popcntintrin.h  
+   creating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/bmi2intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/bmiintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/emmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/immintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/mm_malloc.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/mmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/nmmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/pmmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/smmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/tmmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/x86gprintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/x86intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ppc_wrappers/xmmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/prfchiintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/prfchwintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/ptwriteintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/raointintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/rdpruintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/rdseedintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/riscv_bitmanip.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/riscv_crypto.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/riscv_ntlh.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/riscv_vector.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/rtmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/s390intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/serializeintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/sgxintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/sha512intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/shaintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/sifive_vector.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/sm3intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/sm4intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/smmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/stdalign.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/stdarg.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/stdatomic.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/stdbool.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/stdckdint.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/stddef.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/stdint.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/stdnoreturn.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/tbmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/tgmath.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/tmmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/tsxldtrkintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/uintrintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/unwind.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/usermsrintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/vadefs.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/vaesintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/varargs.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/vecintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/velintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/velintrin_approx.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/velintrin_gen.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/vpclmulqdqintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/waitpkgintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/wasm_simd128.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/wbnoinvdintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/wmmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/x86gprintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/x86intrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/xmmintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/xopintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/xsavecintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/xsaveintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/xsaveoptintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/xsavesintrin.h  
+  inflating: ./clangd_18.1.3/lib/clang/18/include/xtestintrin.h  
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/clangd/vscode-clangd/master/package.json"…Installing language server cmake-language-server... Creating virtual environment…
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt install python3.12-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: /home/gajin/.local/share/nvim/mason/packages/cmake-language-server/venv/bin/python3.12
+
+Error detected while processing command line:
+spawn: python3.12 failed with exit code 1 and signal 0. 
+
+The following packages failed to install: cmake-language-serverInstalling language server css-lsp... Wrote to /home/gajin/.local/share/nvim/mason/staging/css-lsp/package.json:
+
+{
+  "name": "@mason/css-lsp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package vscode-langservers-extracted@4.10.0…
+
+added 35 packages, and audited 36 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/microsoft/vscode/main/extensions/css-language-features/package.json"…Installing language server dockerfile-language-server... Wrote to /home/gajin/.local/share/nvim/mason/staging/dockerfile-language-server/package.json:
+
+{
+  "name": "@mason/dockerfile-language-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package dockerfile-language-server-nodejs@0.13.0…
+
+added 11 packages, and audited 12 packages in 853ms
+
+found 0 vulnerabilitiesInstalling language server eslint-lsp... Wrote to /home/gajin/.local/share/nvim/mason/staging/eslint-lsp/package.json:
+
+{
+  "name": "@mason/eslint-lsp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package vscode-langservers-extracted@4.10.0…
+
+added 35 packages, and audited 36 packages in 876ms
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/microsoft/vscode-eslint/main/package.json"…Installing language server graphql-language-service-cli... Wrote to /home/gajin/.local/share/nvim/mason/staging/graphql-language-service-cli/package.json:
+
+{
+  "name": "@mason/graphql-language-service-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package graphql-language-service-cli@3.4.1…
+Error detected while processing command line:
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated @babel/polyfill@7.12.1: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+npm warn deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+
+added 235 packages, and audited 236 packages in 6s
+
+23 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilitiesInstalling language server html-lsp... Wrote to /home/gajin/.local/share/nvim/mason/staging/html-lsp/package.json:
+
+{
+  "name": "@mason/html-lsp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package vscode-langservers-extracted@4.10.0…
+
+added 35 packages, and audited 36 packages in 831ms
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/microsoft/vscode/main/extensions/html-language-features/package.json"…Installing language server jinja-lsp... Installing crate jinja-lsp@0.1.81…
+Error detected while processing command line:
+spawn: cargo failed with exit code - and signal -. cargo is not executable
+
+The following packages failed to install: jinja-lspInstalling language server json-lsp... Wrote to /home/gajin/.local/share/nvim/mason/staging/json-lsp/package.json:
+
+{
+  "name": "@mason/json-lsp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package vscode-langservers-extracted@4.10.0…
+
+added 35 packages, and audited 36 packages in 821ms
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/microsoft/vscode/master/extensions/json-language-features/package.json"…Installing language server lua-language-server... Downloading file "https://github.com/luals/lua-language-server/releases/download/3.9.3/lua-language-server-3.9.3-linux-x64.tar.gz"…
+Unpacking "lua-language-server-3.9.3-linux-x64.tar.gz"…
+LICENSE
+bin/
+bin/lua-language-server
+bin/main.lua
+changelog.md
+debugger.lua
+locale/
+locale/pt-br/
+locale/pt-br/meta.lua
+locale/pt-br/script.lua
+locale/pt-br/setting.lua
+locale/zh-cn/
+locale/zh-cn/meta.lua
+locale/zh-cn/script.lua
+locale/zh-cn/setting.lua
+locale/zh-tw/
+locale/zh-tw/meta.lua
+locale/zh-tw/script.lua
+locale/zh-tw/setting.lua
+locale/en-us/
+locale/en-us/meta.lua
+locale/en-us/script.lua
+locale/en-us/setting.lua
+main.lua
+meta/
+meta/default utf8/
+meta/default utf8/UnityEngine.Playables.lua
+meta/default utf8/System.Runtime.ConstrainedExecution.lua
+meta/default utf8/System.Text.RegularExpressions.lua
+meta/default utf8/System.Net.Mail.lua
+meta/default utf8/System.Runtime.Remoting.Metadata.W3cXsd2001.lua
+meta/default utf8/System.Data.Common.lua
+meta/default utf8/UnityEngine.Apple.ReplayKit.lua
+meta/default utf8/System.Runtime.Remoting.Lifetime.lua
+meta/default utf8/System.lua
+meta/default utf8/UnityEngine.Experimental.Animations.lua
+meta/default utf8/System.CodeDom.Compiler.lua
+meta/default utf8/System.Security.Cryptography.lua
+meta/default utf8/UnityEngine.Apple.TV.lua
+meta/default utf8/UnityEngine.VFX.lua
+meta/default utf8/System.IO.IsolatedStorage.lua
+meta/default utf8/System.Runtime.InteropServices.ComTypes.lua
+meta/default utf8/UnityEngine.Tilemaps.lua
+meta/default utf8/System.Collections.Specialized.lua
+meta/default utf8/System.Diagnostics.PerformanceData.lua
+meta/default utf8/System.Runtime.Remoting.Contexts.lua
+meta/default utf8/System.Net.Security.lua
+meta/default utf8/UnityEngine.Experimental.AI.lua
+meta/default utf8/System.Xml.Schema.lua
+meta/default utf8/UnityEngine.Networking.Match.lua
+meta/default utf8/UnityEngine.Sprites.lua
+meta/default utf8/UnityEngine.XR.Provider.lua
+meta/default utf8/UnityEngine.Jobs.lua
+meta/default utf8/System.Net.Cache.lua
+meta/default utf8/System.Runtime.DesignerServices.lua
+meta/default utf8/System.Diagnostics.Contracts.lua
+meta/default utf8/System.Windows.Markup.lua
+meta/default utf8/UnityEngine.Internal.lua
+meta/default utf8/System.Data.Odbc.lua
+meta/default utf8/UnityEngine.Profiling.lua
+meta/default utf8/System.Runtime.Serialization.Json.lua
+meta/default utf8/System.Xml.XmlConfiguration.lua
+meta/default utf8/UnityEngine.SocialPlatforms.lua
+meta/default utf8/System.Runtime.InteropServices.Expando.lua
+meta/default utf8/System.Collections.Concurrent.lua
+meta/default utf8/UnityEngine.Build.Pipeline.lua
+meta/default utf8/UnityEngine.SocialPlatforms.Impl.lua
+meta/default utf8/UnityEngine.UI.lua
+meta/default utf8/System.ComponentModel.lua
+meta/default utf8/UnityEngine.Timeline.lua
+meta/default utf8/UnityEngine.TestTools.lua
+meta/default utf8/System.Security.Cryptography.X509Certificates.lua
+meta/default utf8/UnityEngine.Rendering.PostProcessing.lua
+meta/default utf8/UnityEngine.iOS.lua
+meta/default utf8/UnityEngine.Experimental.Rendering.lua
+meta/default utf8/System.Net.NetworkInformation.lua
+meta/default utf8/UnityEngine.SubsystemsImplementation.Extensions.lua
+meta/default utf8/System.Xml.Xsl.lua
+meta/default utf8/UnityEngine.UIElements.lua
+meta/default utf8/System.Collections.Generic.lua
+meta/default utf8/UnityEngine.Networking.lua
+meta/default utf8/System.Xml.Serialization.lua
+meta/default utf8/UnityEngine.Experimental.GlobalIllumination.lua
+meta/default utf8/UnityEngine.Assertions.Must.lua
+meta/default utf8/System.Net.Mime.lua
+meta/default utf8/UnityEngine.Audio.lua
+meta/default utf8/System.Runtime.CompilerServices.lua
+meta/default utf8/System.Security.Authentication.lua
+meta/default utf8/UnityEngine.Subsystems.lua
+meta/default utf8/System.Net.Http.lua
+meta/default utf8/UnityEngine.EventSystems.lua
+meta/default utf8/System.Runtime.InteropServices.lua
+meta/default utf8/UnityEngine.Apple.lua
+meta/default utf8/System.Linq.Expressions.lua
+meta/default utf8/System.Runtime.Remoting.Services.lua
+meta/default utf8/UnityEngine.SearchService.lua
+meta/default utf8/UnityEngineInternal.XR.WSA.lua
+meta/default utf8/UnityEngine.Android.lua
+meta/default utf8/UnityEngine.UIElements.Experimental.lua
+meta/default utf8/System.Runtime.Remoting.Metadata.lua
+meta/default utf8/System.Collections.lua
+meta/default utf8/UnityEngine.Profiling.Memory.Experimental.lua
+meta/default utf8/System.Runtime.Remoting.Messaging.lua
+meta/default utf8/UnityEngine.Profiling.Experimental.lua
+meta/default utf8/UnityEngine.Animations.lua
+meta/default utf8/System.CodeDom.lua
+meta/default utf8/System.Deployment.Internal.lua
+meta/default utf8/System.Security.Permissions.lua
+meta/default utf8/System.Xml.Resolvers.lua
+meta/default utf8/System.Xml.lua
+meta/default utf8/System.Net.Sockets.lua
+meta/default utf8/UnityEngine.LowLevel.lua
+meta/default utf8/System.Security.Claims.lua
+meta/default utf8/UnityEngine.XR.WSA.lua
+meta/default utf8/System.Security.AccessControl.lua
+meta/default utf8/UnityEngine.Scripting.APIUpdating.lua
+meta/default utf8/System.Security.Authentication.ExtendedProtection.Configuration.lua
+meta/default utf8/System.Dynamic.lua
+meta/default utf8/System.Runtime.Versioning.lua
+meta/default utf8/System.Runtime.Serialization.Formatters.lua
+meta/default utf8/System.Runtime.Serialization.Formatters.Binary.lua
+meta/default utf8/UnityEngine.Video.lua
+meta/default utf8/System.Data.SqlTypes.lua
+meta/default utf8/System.Runtime.ExceptionServices.lua
+meta/default utf8/UnityEngine.SceneManagement.lua
+meta/default utf8/System.Diagnostics.Tracing.lua
+meta/default utf8/System.Data.OleDb.lua
+meta/default utf8/System.Reflection.lua
+meta/default utf8/System.Diagnostics.Eventing.lua
+meta/default utf8/UnityEngine.TextCore.LowLevel.lua
+meta/default utf8/UnityEngine.Networking.Types.lua
+meta/default utf8/UnityEngine.Events.lua
+meta/default utf8/UnityEngine.XR.lua
+meta/default utf8/UnityEngine.tvOS.lua
+meta/default utf8/System.Net.WebSockets.lua
+meta/default utf8/System.Net.Configuration.lua
+meta/default utf8/System.Media.lua
+meta/default utf8/System.IO.Pipes.lua
+meta/default utf8/System.Configuration.lua
+meta/default utf8/System.Runtime.Serialization.lua
+meta/default utf8/System.Data.Sql.lua
+meta/default utf8/UnityEngineInternal.lua
+meta/default utf8/System.Resources.lua
+meta/default utf8/UnityEngine.Windows.WebCam.lua
+meta/default utf8/System.Text.lua
+meta/default utf8/UnityEngine.U2D.lua
+meta/default utf8/System.Security.Principal.lua
+meta/default utf8/System.Timers.lua
+meta/default utf8/System.Runtime.Serialization.Configuration.lua
+meta/default utf8/UnityEngine.Scripting.lua
+meta/default utf8/System.Management.Instrumentation.lua
+meta/default utf8/UnityEngine.Rendering.lua
+meta/default utf8/System.Threading.Tasks.lua
+meta/default utf8/System.Xml.XPath.lua
+meta/default utf8/UnityEngine.WSA.lua
+meta/default utf8/System.Runtime.Remoting.lua
+meta/default utf8/System.Xml.Serialization.Advanced.lua
+meta/default utf8/System.Collections.ObjectModel.lua
+meta/default utf8/System.Diagnostics.lua
+meta/default utf8/System.Data.lua
+meta/default utf8/UnityEngine.Windows.lua
+meta/default utf8/UnityEngine.Experimental.Playables.lua
+meta/default utf8/UnityEngine.SubsystemsImplementation.lua
+meta/default utf8/UnityEngine.Assertions.Comparers.lua
+meta/default utf8/UnityEngine.Experimental.Video.lua
+meta/default utf8/System.Xml.Serialization.Configuration.lua
+meta/default utf8/System.Reflection.Emit.lua
+meta/default utf8/System.Numerics.lua
+meta/default utf8/UnityEngine.Accessibility.lua
+meta/default utf8/System.Runtime.lua
+meta/default utf8/System.Runtime.Hosting.lua
+meta/default utf8/System.IO.MemoryMappedFiles.lua
+meta/default utf8/System.Net.lua
+meta/default utf8/System.IO.Compression.lua
+meta/default utf8/System.Windows.Input.lua
+meta/default utf8/System.Runtime.Remoting.Channels.lua
+meta/default utf8/UnityEngine.CrashReportHandler.lua
+meta/default utf8/System.Runtime.Remoting.Activation.lua
+meta/default utf8/UnityEngine.Serialization.lua
+meta/default utf8/UnityEngine.Experimental.TerrainAPI.lua
+meta/default utf8/UnityEngine.PlayerLoop.lua
+meta/default utf8/System.Security.lua
+meta/default utf8/System.Net.Http.Headers.lua
+meta/default utf8/UnityEngine.Assertions.lua
+meta/default utf8/UnityEngine.TextCore.lua
+meta/default utf8/System.Linq.lua
+meta/default utf8/System.ComponentModel.Design.lua
+meta/default utf8/System.ComponentModel.Design.Serialization.lua
+meta/default utf8/System.Diagnostics.SymbolStore.lua
+meta/default utf8/UnityEngine.Diagnostics.lua
+meta/default utf8/System.IO.lua
+meta/default utf8/UnityEngine.Analytics.lua
+meta/default utf8/CS.lua
+meta/default utf8/UnityEngine.Lumin.lua
+meta/default utf8/System.Diagnostics.Eventing.Reader.lua
+meta/default utf8/System.Runtime.InteropServices.WindowsRuntime.lua
+meta/default utf8/System.Globalization.lua
+meta/default utf8/UnityEngine.SocialPlatforms.GameCenter.lua
+meta/default utf8/System.Data.SqlClient.lua
+meta/default utf8/System.Security.Authentication.ExtendedProtection.lua
+meta/default utf8/UnityEngine.Experimental.Audio.lua
+meta/default utf8/System.Runtime.Remoting.Proxies.lua
+meta/default utf8/UnityEngine.lua
+meta/default utf8/System.Diagnostics.Contracts.Internal.lua
+meta/default utf8/System.Configuration.Assemblies.lua
+meta/default utf8/UnityEngine.Experimental.AssetBundlePatching.lua
+meta/default utf8/UnityEngine.Windows.Speech.lua
+meta/default utf8/System.Threading.lua
+meta/default utf8/System.Web.lua
+meta/default utf8/System.Diagnostics.CodeAnalysis.lua
+meta/default utf8/UnityEngine.AI.lua
+meta/default utf8/UnityEngine.Rendering.VirtualTexturing.lua
+meta/default utf8/System.Xml.Linq.lua
+meta/default utf8/UnityEngine.ParticleSystemJobs.lua
+meta/default utf8/System.Security.Policy.lua
+meta/default utf8/UnityEngine.Networking.PlayerConnection.lua
+meta/default utf8/System.IO.Ports.lua
+meta/template/
+meta/template/debug.lua
+meta/template/math.lua
+meta/template/package.lua
+meta/template/os.lua
+meta/template/table.lua
+meta/template/string.lua
+meta/template/table.new.lua
+meta/template/builtin.lua
+meta/template/jit.profile.lua
+meta/template/io.lua
+meta/template/table.clear.lua
+meta/template/jit.util.lua
+meta/template/jit.lua
+meta/template/bit32.lua
+meta/template/string.buffer.lua
+meta/template/basic.lua
+meta/template/coroutine.lua
+meta/template/ffi.lua
+meta/template/utf8.lua
+meta/template/bit.lua
+meta/3rd/
+meta/3rd/ffi-reflect/
+meta/3rd/ffi-reflect/library/
+meta/3rd/ffi-reflect/library/reflect.lua
+meta/3rd/ffi-reflect/.git
+meta/3rd/ffi-reflect/config.json
+meta/3rd/skynet/
+meta/3rd/skynet/library/
+meta/3rd/skynet/library/skynet/
+meta/3rd/skynet/library/skynet/socketdriver.lua
+meta/3rd/skynet/library/skynet/debug.lua
+meta/3rd/skynet/library/skynet/socket.lua
+meta/3rd/skynet/library/skynet/stm.lua
+meta/3rd/skynet/library/skynet/socketchannel.lua
+meta/3rd/skynet/library/skynet/habor.lua
+meta/3rd/skynet/library/skynet/cluster.lua
+meta/3rd/skynet/library/skynet/profile.lua
+meta/3rd/skynet/library/skynet/netpack.lua
+meta/3rd/skynet/library/skynet/db/
+meta/3rd/skynet/library/skynet/db/mongo.lua
+meta/3rd/skynet/library/skynet/db/mysql.lua
+meta/3rd/skynet/library/skynet/db/redis.lua
+meta/3rd/skynet/library/skynet/sharedata.lua
+meta/3rd/skynet/library/skynet/sharetable.lua
+meta/3rd/skynet/library/skynet/crypt.lua
+meta/3rd/skynet/library/skynet/sharemap.lua
+meta/3rd/skynet/library/skynet/muliticast.lua
+meta/3rd/skynet/library/skynet.lua
+meta/3rd/skynet/.git
+meta/3rd/skynet/config.json
+meta/3rd/Cocos4.0/
+meta/3rd/Cocos4.0/library/
+meta/3rd/Cocos4.0/library/cc/
+meta/3rd/Cocos4.0/library/cc/Menu.lua
+meta/3rd/Cocos4.0/library/cc/EaseElastic.lua
+meta/3rd/Cocos4.0/library/cc/TransitionFlipX.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsShapeBox.lua
+meta/3rd/Cocos4.0/library/cc/DelayTime.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DRigidBody.lua
+meta/3rd/Cocos4.0/library/cc/TransitionRotoZoom.lua
+meta/3rd/Cocos4.0/library/cc/CameraBackgroundBrush.lua
+meta/3rd/Cocos4.0/library/cc/FadeOut.lua
+meta/3rd/Cocos4.0/library/cc/Animate3D.lua
+meta/3rd/Cocos4.0/library/cc/FadeTo.lua
+meta/3rd/Cocos4.0/library/cc/FlipX3D.lua
+meta/3rd/Cocos4.0/library/cc/NodeGrid.lua
+meta/3rd/Cocos4.0/library/cc/EaseCircleActionOut.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DPointToPointConstraint.lua
+meta/3rd/Cocos4.0/library/cc/ParticleFireworks.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsContactPostSolve.lua
+meta/3rd/Cocos4.0/library/cc/ActionManager.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContact.lua
+meta/3rd/Cocos4.0/library/cc/MenuItemImage.lua
+meta/3rd/Cocos4.0/library/cc/Mesh.lua
+meta/3rd/Cocos4.0/library/cc/ControlHuePicker.lua
+meta/3rd/Cocos4.0/library/cc/OrbitCamera.lua
+meta/3rd/Cocos4.0/library/cc/EaseExponentialInOut.lua
+meta/3rd/Cocos4.0/library/cc/Sequence.lua
+meta/3rd/Cocos4.0/library/cc/TransitionScene.lua
+meta/3rd/Cocos4.0/library/cc/CSLoader.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJoint.lua
+meta/3rd/Cocos4.0/library/cc/ControlSwitch.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerController.lua
+meta/3rd/Cocos4.0/library/cc/Place.lua
+meta/3rd/Cocos4.0/library/cc/TransitionSplitRows.lua
+meta/3rd/Cocos4.0/library/cc/MenuItemLabel.lua
+meta/3rd/Cocos4.0/library/cc/MenuItemToggle.lua
+meta/3rd/Cocos4.0/library/cc/ParticleBatchNode.lua
+meta/3rd/Cocos4.0/library/cc/CameraBackgroundColorBrush.lua
+meta/3rd/Cocos4.0/library/cc/Shaky3D.lua
+meta/3rd/Cocos4.0/library/cc/EaseBounceInOut.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsContactPreSolve.lua
+meta/3rd/Cocos4.0/library/cc/Event.lua
+meta/3rd/Cocos4.0/library/cc/TransitionTurnOffTiles.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContactWithShapes.lua
+meta/3rd/Cocos4.0/library/cc/FadeOutBLTiles.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContactWithBodies.lua
+meta/3rd/Cocos4.0/library/cc/Controller.lua
+meta/3rd/Cocos4.0/library/cc/ControlPotentiometer.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsShapePolygon.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContactWithGroup.lua
+meta/3rd/Cocos4.0/library/cc/ParticleMeteor.lua
+meta/3rd/Cocos4.0/library/cc/EventAssetsManagerEx.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DConstraint.lua
+meta/3rd/Cocos4.0/library/cc/TransitionMoveInL.lua
+meta/3rd/Cocos4.0/library/cc/TransitionZoomFlipY.lua
+meta/3rd/Cocos4.0/library/cc/Show.lua
+meta/3rd/Cocos4.0/library/cc/EaseCircleActionIn.lua
+meta/3rd/Cocos4.0/library/cc/ShaderCache.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointSpring.lua
+meta/3rd/Cocos4.0/library/cc/EventFocus.lua
+meta/3rd/Cocos4.0/library/cc/EaseCubicActionOut.lua
+meta/3rd/Cocos4.0/library/cc/ProgressTimer.lua
+meta/3rd/Cocos4.0/library/cc/FadeIn.lua
+meta/3rd/Cocos4.0/library/cc/MoveBy.lua
+meta/3rd/Cocos4.0/library/cc/SplitRows.lua
+meta/3rd/Cocos4.0/library/cc/TransitionProgressOutIn.lua
+meta/3rd/Cocos4.0/library/cc/ScaleBy.lua
+meta/3rd/Cocos4.0/library/cc/ActionTween.lua
+meta/3rd/Cocos4.0/library/cc/RotateTo.lua
+meta/3rd/Cocos4.0/library/cc/MoveTo.lua
+meta/3rd/Cocos4.0/library/cc/ParticleSun.lua
+meta/3rd/Cocos4.0/library/cc/EaseBackOut.lua
+meta/3rd/Cocos4.0/library/cc/TargetedAction.lua
+meta/3rd/Cocos4.0/library/cc/AudioProfile.lua
+meta/3rd/Cocos4.0/library/cc/Repeat.lua
+meta/3rd/Cocos4.0/library/cc/TiledGrid3D.lua
+meta/3rd/Cocos4.0/library/cc/TransitionSlideInR.lua
+meta/3rd/Cocos4.0/library/cc/AnimationFrame.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerMouse.lua
+meta/3rd/Cocos4.0/library/cc/ParticleFlower.lua
+meta/3rd/Cocos4.0/library/cc/AmbientLight.lua
+meta/3rd/Cocos4.0/library/cc/EaseQuinticActionInOut.lua
+meta/3rd/Cocos4.0/library/cc/FadeOutDownTiles.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DSliderConstraint.lua
+meta/3rd/Cocos4.0/library/cc/FadeOutTRTiles.lua
+meta/3rd/Cocos4.0/library/cc/Grid3D.lua
+meta/3rd/Cocos4.0/library/cc/UserDefault.lua
+meta/3rd/Cocos4.0/library/cc/EventTouch.lua
+meta/3rd/Cocos4.0/library/cc/Manifest.lua
+meta/3rd/Cocos4.0/library/cc/Material.lua
+meta/3rd/Cocos4.0/library/cc/TileMapAtlas.lua
+meta/3rd/Cocos4.0/library/cc/EventCustom.lua
+meta/3rd/Cocos4.0/library/cc/CallFunc.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DComponent.lua
+meta/3rd/Cocos4.0/library/cc/EaseBounceIn.lua
+meta/3rd/Cocos4.0/library/cc/CardinalSplineBy.lua
+meta/3rd/Cocos4.0/library/cc/EaseCircleActionInOut.lua
+meta/3rd/Cocos4.0/library/cc/EaseBezierAction.lua
+meta/3rd/Cocos4.0/library/cc/TransitionProgressHorizontal.lua
+meta/3rd/Cocos4.0/library/cc/Animate.lua
+meta/3rd/Cocos4.0/library/cc/ControlSlider.lua
+meta/3rd/Cocos4.0/library/cc/ActionFloat.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointMotor.lua
+meta/3rd/Cocos4.0/library/cc/EaseBackIn.lua
+meta/3rd/Cocos4.0/library/cc/CardinalSplineTo.lua
+meta/3rd/Cocos4.0/library/cc/EventController.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointRotarySpring.lua
+meta/3rd/Cocos4.0/library/cc/ScaleTo.lua
+meta/3rd/Cocos4.0/library/cc/TMXTiledMap.lua
+meta/3rd/Cocos4.0/library/cc/ShakyTiles3D.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsShape.lua
+meta/3rd/Cocos4.0/library/cc/FadeOutUpTiles.lua
+meta/3rd/Cocos4.0/library/cc/ParticleSnow.lua
+meta/3rd/Cocos4.0/library/cc/EaseCubicActionIn.lua
+meta/3rd/Cocos4.0/library/cc/FastTMXLayer.lua
+meta/3rd/Cocos4.0/library/cc/Twirl.lua
+meta/3rd/Cocos4.0/library/cc/ShuffleTiles.lua
+meta/3rd/Cocos4.0/library/cc/Animation.lua
+meta/3rd/Cocos4.0/library/cc/MenuItemFont.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerAcceleration.lua
+meta/3rd/Cocos4.0/library/cc/TransitionFadeTR.lua
+meta/3rd/Cocos4.0/library/cc/EaseInOut.lua
+meta/3rd/Cocos4.0/library/cc/AtlasNode.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsBody.lua
+meta/3rd/Cocos4.0/library/cc/ControlColourPicker.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DWorld.lua
+meta/3rd/Cocos4.0/library/cc/ParticleSystemQuad.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointPin.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgeChain.lua
+meta/3rd/Cocos4.0/library/cc/ParticleGalaxy.lua
+meta/3rd/Cocos4.0/library/cc/Ref.lua
+meta/3rd/Cocos4.0/library/cc/EventAcceleration.lua
+meta/3rd/Cocos4.0/library/cc/TransitionFlipAngular.lua
+meta/3rd/Cocos4.0/library/cc/LayerRadialGradient.lua
+meta/3rd/Cocos4.0/library/cc/ParticleFire.lua
+meta/3rd/Cocos4.0/library/cc/Technique.lua
+meta/3rd/Cocos4.0/library/cc/LayerMultiplex.lua
+meta/3rd/Cocos4.0/library/cc/TMXLayerInfo.lua
+meta/3rd/Cocos4.0/library/cc/EaseQuinticActionIn.lua
+meta/3rd/Cocos4.0/library/cc/Device.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgePolygon.lua
+meta/3rd/Cocos4.0/library/cc/TransitionSlideInT.lua
+meta/3rd/Cocos4.0/library/cc/Physics3D6DofConstraint.lua
+meta/3rd/Cocos4.0/library/cc/Blink.lua
+meta/3rd/Cocos4.0/library/cc/AssetsManager.lua
+meta/3rd/Cocos4.0/library/cc/Lens3D.lua
+meta/3rd/Cocos4.0/library/cc/Waves3D.lua
+meta/3rd/Cocos4.0/library/cc/Node.lua
+meta/3rd/Cocos4.0/library/cc/SpotLight.lua
+meta/3rd/Cocos4.0/library/cc/TransitionProgressInOut.lua
+meta/3rd/Cocos4.0/library/cc/TransitionEaseScene.lua
+meta/3rd/Cocos4.0/library/cc/TMXMapInfo.lua
+meta/3rd/Cocos4.0/library/cc/EaseElasticOut.lua
+meta/3rd/Cocos4.0/library/cc/TextureCache.lua
+meta/3rd/Cocos4.0/library/cc/ShatteredTiles3D.lua
+meta/3rd/Cocos4.0/library/cc/ClippingRectangleNode.lua
+meta/3rd/Cocos4.0/library/cc/Liquid.lua
+meta/3rd/Cocos4.0/library/cc/TransitionSceneOriented.lua
+meta/3rd/Cocos4.0/library/cc/ParticleSystem3D.lua
+meta/3rd/Cocos4.0/library/cc/Hide.lua
+meta/3rd/Cocos4.0/library/cc/TransitionProgressRadialCW.lua
+meta/3rd/Cocos4.0/library/cc/TurnOffTiles.lua
+meta/3rd/Cocos4.0/library/cc/FlipY3D.lua
+meta/3rd/Cocos4.0/library/cc/Director.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DShape.lua
+meta/3rd/Cocos4.0/library/cc/EaseQuarticActionInOut.lua
+meta/3rd/Cocos4.0/library/cc/ActionEase.lua
+meta/3rd/Cocos4.0/library/cc/Touch.lua
+meta/3rd/Cocos4.0/library/cc/ToggleVisibility.lua
+meta/3rd/Cocos4.0/library/cc/EaseQuarticActionIn.lua
+meta/3rd/Cocos4.0/library/cc/TransitionJumpZoom.lua
+meta/3rd/Cocos4.0/library/cc/SpriteBatchNode.lua
+meta/3rd/Cocos4.0/library/cc/FastTMXTiledMap.lua
+meta/3rd/Cocos4.0/library/cc/TransitionProgressVertical.lua
+meta/3rd/Cocos4.0/library/cc/EaseExponentialOut.lua
+meta/3rd/Cocos4.0/library/cc/EaseBounceOut.lua
+meta/3rd/Cocos4.0/library/cc/Image.lua
+meta/3rd/Cocos4.0/library/cc/NavMeshAgent.lua
+meta/3rd/Cocos4.0/library/cc/AudioEngine.lua
+meta/3rd/Cocos4.0/library/cc/StopGrid.lua
+meta/3rd/Cocos4.0/library/cc/NavMeshObstacle.lua
+meta/3rd/Cocos4.0/library/cc/TransitionFadeUp.lua
+meta/3rd/Cocos4.0/library/cc/TransitionMoveInT.lua
+meta/3rd/Cocos4.0/library/cc/EaseSineIn.lua
+meta/3rd/Cocos4.0/library/cc/EaseQuinticActionOut.lua
+meta/3rd/Cocos4.0/library/cc/FlipY.lua
+meta/3rd/Cocos4.0/library/cc/JumpTiles3D.lua
+meta/3rd/Cocos4.0/library/cc/SpriteFrame.lua
+meta/3rd/Cocos4.0/library/cc/AttachNode.lua
+meta/3rd/Cocos4.0/library/cc/RotateBy.lua
+meta/3rd/Cocos4.0/library/cc/PUParticleSystem3D.lua
+meta/3rd/Cocos4.0/library/cc/BezierBy.lua
+meta/3rd/Cocos4.0/library/cc/EaseIn.lua
+meta/3rd/Cocos4.0/library/cc/Sprite3D.lua
+meta/3rd/Cocos4.0/library/cc/WavesTiles3D.lua
+meta/3rd/Cocos4.0/library/cc/Properties.lua
+meta/3rd/Cocos4.0/library/cc/GLViewImpl.lua
+meta/3rd/Cocos4.0/library/cc/Animation3D.lua
+meta/3rd/Cocos4.0/library/cc/Layer.lua
+meta/3rd/Cocos4.0/library/cc/EaseSineOut.lua
+meta/3rd/Cocos4.0/library/cc/TMXTilesetInfo.lua
+meta/3rd/Cocos4.0/library/cc/Sprite.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgeSegment.lua
+meta/3rd/Cocos4.0/library/cc/Control.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsSprite3D.lua
+meta/3rd/Cocos4.0/library/cc/MenuItemSprite.lua
+meta/3rd/Cocos4.0/library/cc/Sprite3DCache.lua
+meta/3rd/Cocos4.0/library/cc/TMXLayer.lua
+meta/3rd/Cocos4.0/library/cc/Terrain.lua
+meta/3rd/Cocos4.0/library/cc/Follow.lua
+meta/3rd/Cocos4.0/library/cc/TintTo.lua
+meta/3rd/Cocos4.0/library/cc/BaseLight.lua
+meta/3rd/Cocos4.0/library/cc/MotionStreak3D.lua
+meta/3rd/Cocos4.0/library/cc/EaseBounce.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsWorld.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerKeyboard.lua
+meta/3rd/Cocos4.0/library/cc/Label.lua
+meta/3rd/Cocos4.0/library/cc/Component.lua
+meta/3rd/Cocos4.0/library/cc/TransitionFade.lua
+meta/3rd/Cocos4.0/library/cc/FiniteTimeAction.lua
+meta/3rd/Cocos4.0/library/cc/LayerColor.lua
+meta/3rd/Cocos4.0/library/cc/AnimationCache.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DConeTwistConstraint.lua
+meta/3rd/Cocos4.0/library/cc/Console.lua
+meta/3rd/Cocos4.0/library/cc/Skybox.lua
+meta/3rd/Cocos4.0/library/cc/JumpTo.lua
+meta/3rd/Cocos4.0/library/cc/TransitionProgress.lua
+meta/3rd/Cocos4.0/library/cc/LayerGradient.lua
+meta/3rd/Cocos4.0/library/cc/ParticleSpiral.lua
+meta/3rd/Cocos4.0/library/cc/TransitionSlideInL.lua
+meta/3rd/Cocos4.0/library/cc/ComponentLua.lua
+meta/3rd/Cocos4.0/library/cc/MenuItemAtlasFont.lua
+meta/3rd/Cocos4.0/library/cc/SkewBy.lua
+meta/3rd/Cocos4.0/library/cc/DrawNode.lua
+meta/3rd/Cocos4.0/library/cc/SplitCols.lua
+meta/3rd/Cocos4.0/library/cc/PointLight.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DHingeConstraint.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointDistance.lua
+meta/3rd/Cocos4.0/library/cc/ControlButton.lua
+meta/3rd/Cocos4.0/library/cc/Spawn.lua
+meta/3rd/Cocos4.0/library/cc/EventDispatcher.lua
+meta/3rd/Cocos4.0/library/cc/DirectionLight.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointGear.lua
+meta/3rd/Cocos4.0/library/cc/EaseBackInOut.lua
+meta/3rd/Cocos4.0/library/cc/TiledGrid3DAction.lua
+meta/3rd/Cocos4.0/library/cc/CameraBackgroundSkyBoxBrush.lua
+meta/3rd/Cocos4.0/library/cc/Texture2D.lua
+meta/3rd/Cocos4.0/library/cc/RepeatForever.lua
+meta/3rd/Cocos4.0/library/cc/ProtectedNode.lua
+meta/3rd/Cocos4.0/library/cc/NavMesh.lua
+meta/3rd/Cocos4.0/library/cc/EaseQuadraticActionIn.lua
+meta/3rd/Cocos4.0/library/cc/ParticleRain.lua
+meta/3rd/Cocos4.0/library/cc/ParticleData.lua
+meta/3rd/Cocos4.0/library/cc/ActionInstant.lua
+meta/3rd/Cocos4.0/library/cc/JumpBy.lua
+meta/3rd/Cocos4.0/library/cc/ParticleSmoke.lua
+meta/3rd/Cocos4.0/library/cc/CatmullRomBy.lua
+meta/3rd/Cocos4.0/library/cc/EaseRateAction.lua
+meta/3rd/Cocos4.0/library/cc/ReuseGrid.lua
+meta/3rd/Cocos4.0/library/cc/TransitionProgressRadialCCW.lua
+meta/3rd/Cocos4.0/library/cc/Action.lua
+meta/3rd/Cocos4.0/library/cc/EaseQuarticActionOut.lua
+meta/3rd/Cocos4.0/library/cc/ControlSaturationBrightnessPicker.lua
+meta/3rd/Cocos4.0/library/cc/TintBy.lua
+meta/3rd/Cocos4.0/library/cc/ProgressFromTo.lua
+meta/3rd/Cocos4.0/library/cc/TransitionShrinkGrow.lua
+meta/3rd/Cocos4.0/library/cc/SpriteFrameCache.lua
+meta/3rd/Cocos4.0/library/cc/TransitionSplitCols.lua
+meta/3rd/Cocos4.0/library/cc/Scene.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerCustom.lua
+meta/3rd/Cocos4.0/library/cc/AutoPolygon.lua
+meta/3rd/Cocos4.0/library/cc/CatmullRomTo.lua
+meta/3rd/Cocos4.0/library/cc/Sprite3DMaterial.lua
+meta/3rd/Cocos4.0/library/cc/Timer.lua
+meta/3rd/Cocos4.0/library/cc/TransitionZoomFlipX.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointRatchet.lua
+meta/3rd/Cocos4.0/library/cc/RenderTexture.lua
+meta/3rd/Cocos4.0/library/cc/EaseQuadraticActionOut.lua
+meta/3rd/Cocos4.0/library/cc/AsyncTaskPool.lua
+meta/3rd/Cocos4.0/library/cc/TableView.lua
+meta/3rd/Cocos4.0/library/cc/Application.lua
+meta/3rd/Cocos4.0/library/cc/ParallaxNode.lua
+meta/3rd/Cocos4.0/library/cc/EaseElasticInOut.lua
+meta/3rd/Cocos4.0/library/cc/AssetsManagerEx.lua
+meta/3rd/Cocos4.0/library/cc/TransitionPageTurn.lua
+meta/3rd/Cocos4.0/library/cc/ProgressTo.lua
+meta/3rd/Cocos4.0/library/cc/TransitionFadeDown.lua
+meta/3rd/Cocos4.0/library/cc/BillBoard.lua
+meta/3rd/Cocos4.0/library/cc/Bundle3D.lua
+meta/3rd/Cocos4.0/library/cc/Renderer.lua
+meta/3rd/Cocos4.0/library/cc/EaseOut.lua
+meta/3rd/Cocos4.0/library/cc/ParticleExplosion.lua
+meta/3rd/Cocos4.0/library/cc/EventListener.lua
+meta/3rd/Cocos4.0/library/cc/Pass.lua
+meta/3rd/Cocos4.0/library/cc/EventKeyboard.lua
+meta/3rd/Cocos4.0/library/cc/EaseQuadraticActionInOut.lua
+meta/3rd/Cocos4.0/library/cc/CameraBackgroundDepthBrush.lua
+meta/3rd/Cocos4.0/library/cc/BezierTo.lua
+meta/3rd/Cocos4.0/library/cc/MotionStreak.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsContact.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgeBox.lua
+meta/3rd/Cocos4.0/library/cc/EaseExponentialIn.lua
+meta/3rd/Cocos4.0/library/cc/SkewTo.lua
+meta/3rd/Cocos4.0/library/cc/ParticleSystem.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerAssetsManagerEx.lua
+meta/3rd/Cocos4.0/library/cc/EaseSineInOut.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointFixed.lua
+meta/3rd/Cocos4.0/library/cc/TransitionCrossFade.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointLimit.lua
+meta/3rd/Cocos4.0/library/cc/Speed.lua
+meta/3rd/Cocos4.0/library/cc/TransitionSlideInB.lua
+meta/3rd/Cocos4.0/library/cc/TransitionMoveInR.lua
+meta/3rd/Cocos4.0/library/cc/ActionInterval.lua
+meta/3rd/Cocos4.0/library/cc/EventMouse.lua
+meta/3rd/Cocos4.0/library/cc/PolygonInfo.lua
+meta/3rd/Cocos4.0/library/cc/Waves.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerTouchAllAtOnce.lua
+meta/3rd/Cocos4.0/library/cc/Grid3DAction.lua
+meta/3rd/Cocos4.0/library/cc/Physics3DObject.lua
+meta/3rd/Cocos4.0/library/cc/GridBase.lua
+meta/3rd/Cocos4.0/library/cc/ControlStepper.lua
+meta/3rd/Cocos4.0/library/cc/LabelAtlas.lua
+meta/3rd/Cocos4.0/library/cc/EaseCubicActionInOut.lua
+meta/3rd/Cocos4.0/library/cc/GLView.lua
+meta/3rd/Cocos4.0/library/cc/TransitionZoomFlipAngular.lua
+meta/3rd/Cocos4.0/library/cc/TableViewCell.lua
+meta/3rd/Cocos4.0/library/cc/MenuItem.lua
+meta/3rd/Cocos4.0/library/cc/Ripple3D.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerFocus.lua
+meta/3rd/Cocos4.0/library/cc/Camera.lua
+meta/3rd/Cocos4.0/library/cc/ClippingNode.lua
+meta/3rd/Cocos4.0/library/cc/FileUtils.lua
+meta/3rd/Cocos4.0/library/cc/ActionCamera.lua
+meta/3rd/Cocos4.0/library/cc/TextureCube.lua
+meta/3rd/Cocos4.0/library/cc/PageTurn3D.lua
+meta/3rd/Cocos4.0/library/cc/EaseElasticIn.lua
+meta/3rd/Cocos4.0/library/cc/GridAction.lua
+meta/3rd/Cocos4.0/library/cc/RenderState.lua
+meta/3rd/Cocos4.0/library/cc/TransitionMoveInB.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointGroove.lua
+meta/3rd/Cocos4.0/library/cc/TransitionFadeBL.lua
+meta/3rd/Cocos4.0/library/cc/TransitionFlipY.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsShapeCircle.lua
+meta/3rd/Cocos4.0/library/cc/RemoveSelf.lua
+meta/3rd/Cocos4.0/library/cc/FlipX.lua
+meta/3rd/Cocos4.0/library/cc/Skeleton3D.lua
+meta/3rd/Cocos4.0/library/cc/Scheduler.lua
+meta/3rd/Cocos4.0/library/cc/PhysicsJointRotaryLimit.lua
+meta/3rd/Cocos4.0/library/cc/TMXObjectGroup.lua
+meta/3rd/Cocos4.0/library/cc/EventListenerTouchOneByOne.lua
+meta/3rd/Cocos4.0/library/global.lua
+meta/3rd/Cocos4.0/library/ccb/
+meta/3rd/Cocos4.0/library/ccb/TextureBackend.lua
+meta/3rd/Cocos4.0/library/ccb/VertexLayout.lua
+meta/3rd/Cocos4.0/library/ccb/TextureCubemapBackend.lua
+meta/3rd/Cocos4.0/library/ccb/Program.lua
+meta/3rd/Cocos4.0/library/ccb/ProgramState.lua
+meta/3rd/Cocos4.0/library/ccb/Texture2DBackend.lua
+meta/3rd/Cocos4.0/library/ccui/
+meta/3rd/Cocos4.0/library/ccui/RichElementNewLine.lua
+meta/3rd/Cocos4.0/library/ccui/CheckBox.lua
+meta/3rd/Cocos4.0/library/ccui/RelativeLayoutParameter.lua
+meta/3rd/Cocos4.0/library/ccui/RichElement.lua
+meta/3rd/Cocos4.0/library/ccui/TextAtlas.lua
+meta/3rd/Cocos4.0/library/ccui/Helper.lua
+meta/3rd/Cocos4.0/library/ccui/RichText.lua
+meta/3rd/Cocos4.0/library/ccui/RadioButtonGroup.lua
+meta/3rd/Cocos4.0/library/ccui/RichElementText.lua
+meta/3rd/Cocos4.0/library/ccui/LayoutComponent.lua
+meta/3rd/Cocos4.0/library/ccui/WebView.lua
+meta/3rd/Cocos4.0/library/ccui/Text.lua
+meta/3rd/Cocos4.0/library/ccui/TextField.lua
+meta/3rd/Cocos4.0/library/ccui/RadioButton.lua
+meta/3rd/Cocos4.0/library/ccui/Widget.lua
+meta/3rd/Cocos4.0/library/ccui/ScrollView.lua
+meta/3rd/Cocos4.0/library/ccui/Layout.lua
+meta/3rd/Cocos4.0/library/ccui/VideoPlayer.lua
+meta/3rd/Cocos4.0/library/ccui/RichElementCustomNode.lua
+meta/3rd/Cocos4.0/library/ccui/TextBMFont.lua
+meta/3rd/Cocos4.0/library/ccui/LoadingBar.lua
+meta/3rd/Cocos4.0/library/ccui/LinearLayoutParameter.lua
+meta/3rd/Cocos4.0/library/ccui/ListView.lua
+meta/3rd/Cocos4.0/library/ccui/AbstractCheckButton.lua
+meta/3rd/Cocos4.0/library/ccui/RichElementImage.lua
+meta/3rd/Cocos4.0/library/ccui/EditBox.lua
+meta/3rd/Cocos4.0/library/ccui/Scale9Sprite.lua
+meta/3rd/Cocos4.0/library/ccui/VBox.lua
+meta/3rd/Cocos4.0/library/ccui/Button.lua
+meta/3rd/Cocos4.0/library/ccui/TabHeader.lua
+meta/3rd/Cocos4.0/library/ccui/Slider.lua
+meta/3rd/Cocos4.0/library/ccui/PageView.lua
+meta/3rd/Cocos4.0/library/ccui/HBox.lua
+meta/3rd/Cocos4.0/library/ccui/ImageView.lua
+meta/3rd/Cocos4.0/library/ccui/TabControl.lua
+meta/3rd/Cocos4.0/library/ccui/LayoutParameter.lua
+meta/3rd/Cocos4.0/library/ccui/RelativeBox.lua
+meta/3rd/Cocos4.0/library/ccs/
+meta/3rd/Cocos4.0/library/ccs/ActionFadeFrame.lua
+meta/3rd/Cocos4.0/library/ccs/DisplayManager.lua
+meta/3rd/Cocos4.0/library/ccs/ComController.lua
+meta/3rd/Cocos4.0/library/ccs/ActionScaleFrame.lua
+meta/3rd/Cocos4.0/library/ccs/Timeline.lua
+meta/3rd/Cocos4.0/library/ccs/ScaleFrame.lua
+meta/3rd/Cocos4.0/library/ccs/MovementData.lua
+meta/3rd/Cocos4.0/library/ccs/ActionObject.lua
+meta/3rd/Cocos4.0/library/ccs/ArmatureDataManager.lua
+meta/3rd/Cocos4.0/library/ccs/Armature.lua
+meta/3rd/Cocos4.0/library/ccs/Tween.lua
+meta/3rd/Cocos4.0/library/ccs/AnchorPointFrame.lua
+meta/3rd/Cocos4.0/library/ccs/ActionTimelineNode.lua
+meta/3rd/Cocos4.0/library/ccs/ComExtensionData.lua
+meta/3rd/Cocos4.0/library/ccs/ComRender.lua
+meta/3rd/Cocos4.0/library/ccs/Skin.lua
+meta/3rd/Cocos4.0/library/ccs/BlendFuncFrame.lua
+meta/3rd/Cocos4.0/library/ccs/ActionMoveFrame.lua
+meta/3rd/Cocos4.0/library/ccs/BatchNode.lua
+meta/3rd/Cocos4.0/library/ccs/ZOrderFrame.lua
+meta/3rd/Cocos4.0/library/ccs/ArmatureDisplayData.lua
+meta/3rd/Cocos4.0/library/ccs/EventFrame.lua
+meta/3rd/Cocos4.0/library/ccs/PositionFrame.lua
+meta/3rd/Cocos4.0/library/ccs/ContourData.lua
+meta/3rd/Cocos4.0/library/ccs/BoneNode.lua
+meta/3rd/Cocos4.0/library/ccs/GUIReader.lua
+meta/3rd/Cocos4.0/library/ccs/TextureFrame.lua
+meta/3rd/Cocos4.0/library/ccs/AlphaFrame.lua
+meta/3rd/Cocos4.0/library/ccs/PlayableFrame.lua
+meta/3rd/Cocos4.0/library/ccs/DisplayData.lua
+meta/3rd/Cocos4.0/library/ccs/ComAudio.lua
+meta/3rd/Cocos4.0/library/ccs/SkewFrame.lua
+meta/3rd/Cocos4.0/library/ccs/ActionRotationFrame.lua
+meta/3rd/Cocos4.0/library/ccs/ActionManagerEx.lua
+meta/3rd/Cocos4.0/library/ccs/ParticleDisplayData.lua
+meta/3rd/Cocos4.0/library/ccs/AnimationData.lua
+meta/3rd/Cocos4.0/library/ccs/RotationFrame.lua
+meta/3rd/Cocos4.0/library/ccs/MovementBoneData.lua
+meta/3rd/Cocos4.0/library/ccs/ActionTimelineData.lua
+meta/3rd/Cocos4.0/library/ccs/VisibleFrame.lua
+meta/3rd/Cocos4.0/library/ccs/ActionTintFrame.lua
+meta/3rd/Cocos4.0/library/ccs/ActionTimelineCache.lua
+meta/3rd/Cocos4.0/library/ccs/SpriteDisplayData.lua
+meta/3rd/Cocos4.0/library/ccs/ActionTimeline.lua
+meta/3rd/Cocos4.0/library/ccs/Bone.lua
+meta/3rd/Cocos4.0/library/ccs/ActionFrame.lua
+meta/3rd/Cocos4.0/library/ccs/Frame.lua
+meta/3rd/Cocos4.0/library/ccs/InnerActionFrame.lua
+meta/3rd/Cocos4.0/library/ccs/FrameData.lua
+meta/3rd/Cocos4.0/library/ccs/RotationSkewFrame.lua
+meta/3rd/Cocos4.0/library/ccs/ArmatureAnimation.lua
+meta/3rd/Cocos4.0/library/ccs/ArmatureData.lua
+meta/3rd/Cocos4.0/library/ccs/SceneReader.lua
+meta/3rd/Cocos4.0/library/ccs/TextureData.lua
+meta/3rd/Cocos4.0/library/ccs/ColorFrame.lua
+meta/3rd/Cocos4.0/library/ccs/SkeletonNode.lua
+meta/3rd/Cocos4.0/library/ccs/BaseData.lua
+meta/3rd/Cocos4.0/library/ccs/ComAttribute.lua
+meta/3rd/Cocos4.0/library/ccs/BoneData.lua
+meta/3rd/Cocos4.0/library/sp/
+meta/3rd/Cocos4.0/library/sp/SkeletonRenderer.lua
+meta/3rd/Cocos4.0/library/sp/SkeletonAnimation.lua
+meta/3rd/Cocos4.0/.git
+meta/3rd/Cocos4.0/config.json
+meta/3rd/lfs/
+meta/3rd/lfs/library/
+meta/3rd/lfs/library/lfs.lua
+meta/3rd/lfs/.git
+meta/3rd/lfs/config.json
+meta/3rd/example/
+meta/3rd/example/plugin.lua
+meta/3rd/example/library/
+meta/3rd/example/library/love.lua
+meta/3rd/example/config.json
+meta/3rd/love2d/
+meta/3rd/love2d/library/
+meta/3rd/love2d/library/love.lua
+meta/3rd/love2d/library/love/
+meta/3rd/love2d/library/love/filesystem.lua
+meta/3rd/love2d/library/love/data.lua
+meta/3rd/love2d/library/love/math.lua
+meta/3rd/love2d/library/love/event.lua
+meta/3rd/love2d/library/love/joystick.lua
+meta/3rd/love2d/library/love/mouse.lua
+meta/3rd/love2d/library/love/touch.lua
+meta/3rd/love2d/library/love/system.lua
+meta/3rd/love2d/library/love/window.lua
+meta/3rd/love2d/library/love/audio.lua
+meta/3rd/love2d/library/love/video.lua
+meta/3rd/love2d/library/love/thread.lua
+meta/3rd/love2d/library/love/font.lua
+meta/3rd/love2d/library/love/image.lua
+meta/3rd/love2d/library/love/physics.lua
+meta/3rd/love2d/library/love/timer.lua
+meta/3rd/love2d/library/love/keyboard.lua
+meta/3rd/love2d/library/love/sound.lua
+meta/3rd/love2d/library/love/graphics.lua
+meta/3rd/love2d/.git
+meta/3rd/love2d/config.json
+meta/3rd/busted/
+meta/3rd/busted/library/
+meta/3rd/busted/library/busted.lua
+meta/3rd/busted/.git
+meta/3rd/busted/config.json
+meta/3rd/Defold/
+meta/3rd/Defold/library/
+meta/3rd/Defold/library/gui.lua
+meta/3rd/Defold/library/built-ins.lua
+meta/3rd/Defold/library/zlib.lua
+meta/3rd/Defold/library/collection_proxy.lua
+meta/3rd/Defold/library/sprite.lua
+meta/3rd/Defold/library/html5.lua
+meta/3rd/Defold/library/game_object.lua
+meta/3rd/Defold/library/render.lua
+meta/3rd/Defold/library/factory.lua
+meta/3rd/Defold/library/buffer.lua
+meta/3rd/Defold/library/model.lua
+meta/3rd/Defold/library/luasocket.lua
+meta/3rd/Defold/library/vector_math.lua
+meta/3rd/Defold/library/system.lua
+meta/3rd/Defold/library/window.lua
+meta/3rd/Defold/library/profiler.lua
+meta/3rd/Defold/library/collection_factory.lua
+meta/3rd/Defold/library/particle_effects.lua
+meta/3rd/Defold/library/tilemap.lua
+meta/3rd/Defold/library/http.lua
+meta/3rd/Defold/library/message.lua
+meta/3rd/Defold/library/resource.lua
+meta/3rd/Defold/library/image.lua
+meta/3rd/Defold/library/collision_object.lua
+meta/3rd/Defold/library/label.lua
+meta/3rd/Defold/library/timer.lua
+meta/3rd/Defold/library/base.lua
+meta/3rd/Defold/library/json.lua
+meta/3rd/Defold/library/sound.lua
+meta/3rd/Defold/.git
+meta/3rd/Defold/config.json
+meta/3rd/OpenResty/
+meta/3rd/OpenResty/library/
+meta/3rd/OpenResty/library/ngx.lua
+meta/3rd/OpenResty/library/resty/
+meta/3rd/OpenResty/library/resty/websocket/
+meta/3rd/OpenResty/library/resty/websocket/client.lua
+meta/3rd/OpenResty/library/resty/websocket/protocol.lua
+meta/3rd/OpenResty/library/resty/websocket/server.lua
+meta/3rd/OpenResty/library/resty/limit/
+meta/3rd/OpenResty/library/resty/limit/traffic.lua
+meta/3rd/OpenResty/library/resty/limit/conn.lua
+meta/3rd/OpenResty/library/resty/limit/count.lua
+meta/3rd/OpenResty/library/resty/limit/req.lua
+meta/3rd/OpenResty/library/resty/sha1.lua
+meta/3rd/OpenResty/library/resty/sha.lua
+meta/3rd/OpenResty/library/resty/sha224.lua
+meta/3rd/OpenResty/library/resty/upload.lua
+meta/3rd/OpenResty/library/resty/string.lua
+meta/3rd/OpenResty/library/resty/aes.lua
+meta/3rd/OpenResty/library/resty/sha256.lua
+meta/3rd/OpenResty/library/resty/memcached.lua
+meta/3rd/OpenResty/library/resty/random.lua
+meta/3rd/OpenResty/library/resty/md5.lua
+meta/3rd/OpenResty/library/resty/core.lua
+meta/3rd/OpenResty/library/resty/core/
+meta/3rd/OpenResty/library/resty/core/ctx.lua
+meta/3rd/OpenResty/library/resty/core/request.lua
+meta/3rd/OpenResty/library/resty/core/response.lua
+meta/3rd/OpenResty/library/resty/core/utils.lua
+meta/3rd/OpenResty/library/resty/core/uri.lua
+meta/3rd/OpenResty/library/resty/core/regex.lua
+meta/3rd/OpenResty/library/resty/core/shdict.lua
+meta/3rd/OpenResty/library/resty/core/worker.lua
+meta/3rd/OpenResty/library/resty/core/phase.lua
+meta/3rd/OpenResty/library/resty/core/time.lua
+meta/3rd/OpenResty/library/resty/core/hash.lua
+meta/3rd/OpenResty/library/resty/core/base64.lua
+meta/3rd/OpenResty/library/resty/core/misc.lua
+meta/3rd/OpenResty/library/resty/core/var.lua
+meta/3rd/OpenResty/library/resty/core/exit.lua
+meta/3rd/OpenResty/library/resty/core/base.lua
+meta/3rd/OpenResty/library/resty/core/ndk.lua
+meta/3rd/OpenResty/library/resty/sha512.lua
+meta/3rd/OpenResty/library/resty/mysql.lua
+meta/3rd/OpenResty/library/resty/shell.lua
+meta/3rd/OpenResty/library/resty/lock.lua
+meta/3rd/OpenResty/library/resty/upstream/
+meta/3rd/OpenResty/library/resty/upstream/healthcheck.lua
+meta/3rd/OpenResty/library/resty/dns/
+meta/3rd/OpenResty/library/resty/dns/resolver.lua
+meta/3rd/OpenResty/library/resty/sha384.lua
+meta/3rd/OpenResty/library/resty/redis.lua
+meta/3rd/OpenResty/library/resty/lrucache/
+meta/3rd/OpenResty/library/resty/lrucache/pureffi.lua
+meta/3rd/OpenResty/library/resty/signal.lua
+meta/3rd/OpenResty/library/resty/lrucache.lua
+meta/3rd/OpenResty/library/cjson.lua
+meta/3rd/OpenResty/library/table/
+meta/3rd/OpenResty/library/table/isarray.lua
+meta/3rd/OpenResty/library/table/clone.lua
+meta/3rd/OpenResty/library/table/isempty.lua
+meta/3rd/OpenResty/library/table/nkeys.lua
+meta/3rd/OpenResty/library/ngx/
+meta/3rd/OpenResty/library/ngx/balancer.lua
+meta/3rd/OpenResty/library/ngx/ocsp.lua
+meta/3rd/OpenResty/library/ngx/ssl.lua
+meta/3rd/OpenResty/library/ngx/semaphore.lua
+meta/3rd/OpenResty/library/ngx/errlog.lua
+meta/3rd/OpenResty/library/ngx/re.lua
+meta/3rd/OpenResty/library/ngx/upstream.lua
+meta/3rd/OpenResty/library/ngx/process.lua
+meta/3rd/OpenResty/library/ngx/base64.lua
+meta/3rd/OpenResty/library/ngx/ssl/
+meta/3rd/OpenResty/library/ngx/ssl/clienthello.lua
+meta/3rd/OpenResty/library/ngx/ssl/session.lua
+meta/3rd/OpenResty/library/ngx/req.lua
+meta/3rd/OpenResty/library/ngx/resp.lua
+meta/3rd/OpenResty/library/ngx/pipe.lua
+meta/3rd/OpenResty/library/jit.lua
+meta/3rd/OpenResty/library/tablepool.lua
+meta/3rd/OpenResty/library/prometheus.lua
+meta/3rd/OpenResty/library/cjson/
+meta/3rd/OpenResty/library/cjson/safe.lua
+meta/3rd/OpenResty/library/thread/
+meta/3rd/OpenResty/library/thread/exdata.lua
+meta/3rd/OpenResty/library/thread/exdata2.lua
+meta/3rd/OpenResty/library/ndk.lua
+meta/3rd/OpenResty/.git
+meta/3rd/OpenResty/config.json
+meta/3rd/bee/
+meta/3rd/bee/library/
+meta/3rd/bee/library/bee/
+meta/3rd/bee/library/bee/filesystem.lua
+meta/3rd/bee/library/bee/subprocess.lua
+meta/3rd/bee/library/bee/platform.lua
+meta/3rd/bee/library/bee/thread.lua
+meta/3rd/bee/.git
+meta/3rd/bee/LICENSE
+meta/3rd/bee/config.json
+meta/3rd/luv/
+meta/3rd/luv/library/
+meta/3rd/luv/library/uv_timer_t.lua
+meta/3rd/luv/library/uv_handle_t.lua
+meta/3rd/luv/library/uv_udp_t.lua
+meta/3rd/luv/library/uv_async_t.lua
+meta/3rd/luv/library/uv_pipe_t.lua
+meta/3rd/luv/library/uv_signal_t.lua
+meta/3rd/luv/library/uv_prepare_t.lua
+meta/3rd/luv/library/uv_tcp_t.lua
+meta/3rd/luv/library/uv_stream_t.lua
+meta/3rd/luv/library/uv_poll_t.lua
+meta/3rd/luv/library/uv_check_t.lua
+meta/3rd/luv/library/uv.lua
+meta/3rd/luv/library/uv_idle_t.lua
+meta/3rd/luv/library/uv_tty_t.lua
+meta/3rd/luv/library/uv_process_t.lua
+meta/3rd/luv/library/uv_fs_poll_t.lua
+meta/3rd/luv/library/types.lua
+meta/3rd/luv/library/luv_thread_t.lua
+meta/3rd/luv/library/errors.lua
+meta/3rd/luv/library/luv_work_ctx_t.lua
+meta/3rd/luv/library/uv_fs_event_t.lua
+meta/3rd/luv/library/luv_dir_t.lua
+meta/3rd/luv/library/uv_req_t.lua
+meta/3rd/luv/.git
+meta/3rd/luv/config.json
+meta/3rd/lovr/
+meta/3rd/lovr/library/
+meta/3rd/lovr/library/callback.lua
+meta/3rd/lovr/library/lovr.lua
+meta/3rd/lovr/library/lovr/
+meta/3rd/lovr/library/lovr/filesystem.lua
+meta/3rd/lovr/library/lovr/data.lua
+meta/3rd/lovr/library/lovr/math.lua
+meta/3rd/lovr/library/lovr/event.lua
+meta/3rd/lovr/library/lovr/system.lua
+meta/3rd/lovr/library/lovr/audio.lua
+meta/3rd/lovr/library/lovr/thread.lua
+meta/3rd/lovr/library/lovr/physics.lua
+meta/3rd/lovr/library/lovr/timer.lua
+meta/3rd/lovr/library/lovr/headset.lua
+meta/3rd/lovr/library/lovr/graphics.lua
+meta/3rd/lovr/.git
+meta/3rd/lovr/config.json
+meta/3rd/luassert/
+meta/3rd/luassert/library/
+meta/3rd/luassert/library/luassert.lua
+meta/3rd/luassert/library/luassert/
+meta/3rd/luassert/library/luassert/spy.lua
+meta/3rd/luassert/library/luassert/mock.lua
+meta/3rd/luassert/library/luassert/array.lua
+meta/3rd/luassert/library/luassert/match.lua
+meta/3rd/luassert/library/luassert/stub.lua
+meta/3rd/luassert/library/luassert/spy.d.lua
+meta/3rd/luassert/.git
+meta/3rd/luassert/config.json
+meta/3rd/Jass/
+meta/3rd/Jass/library/
+meta/3rd/Jass/library/jass/
+meta/3rd/Jass/library/jass/common.lua
+meta/3rd/Jass/.git
+meta/3rd/Jass/config.json
+meta/3rd/luaecs/
+meta/3rd/luaecs/library/
+meta/3rd/luaecs/library/ecs.lua
+meta/3rd/luaecs/.git
+meta/3rd/luaecs/config.json
+meta/5eee0c91/
+meta/spell/
+meta/spell/lua_dict.txt
+meta/spell/dictionary.txt
+meta/whimsical/
+meta/whimsical/builtin.lua
+meta/whimsical/rule.lua
+meta/whimsical/basic.lua
+meta/Lua 5.4 zh-cn utf8/
+meta/Lua 5.4 zh-cn utf8/debug.lua
+meta/Lua 5.4 zh-cn utf8/math.lua
+meta/Lua 5.4 zh-cn utf8/package.lua
+meta/Lua 5.4 zh-cn utf8/os.lua
+meta/Lua 5.4 zh-cn utf8/table.lua
+meta/Lua 5.4 zh-cn utf8/string.lua
+meta/Lua 5.4 zh-cn utf8/builtin.lua
+meta/Lua 5.4 zh-cn utf8/string/
+meta/Lua 5.4 zh-cn utf8/string/buffer.lua
+meta/Lua 5.4 zh-cn utf8/table/
+meta/Lua 5.4 zh-cn utf8/table/clear.lua
+meta/Lua 5.4 zh-cn utf8/table/new.lua
+meta/Lua 5.4 zh-cn utf8/io.lua
+meta/Lua 5.4 zh-cn utf8/jit.lua
+meta/Lua 5.4 zh-cn utf8/bit32.lua
+meta/Lua 5.4 zh-cn utf8/basic.lua
+meta/Lua 5.4 zh-cn utf8/coroutine.lua
+meta/Lua 5.4 zh-cn utf8/jit/
+meta/Lua 5.4 zh-cn utf8/jit/util.lua
+meta/Lua 5.4 zh-cn utf8/jit/profile.lua
+meta/Lua 5.4 zh-cn utf8/ffi.lua
+meta/Lua 5.4 zh-cn utf8/utf8.lua
+meta/Lua 5.4 zh-cn utf8/bit.lua
+meta/LuaJIT zh-cn utf8/
+meta/LuaJIT zh-cn utf8/debug.lua
+meta/LuaJIT zh-cn utf8/math.lua
+meta/LuaJIT zh-cn utf8/package.lua
+meta/LuaJIT zh-cn utf8/os.lua
+meta/LuaJIT zh-cn utf8/table.lua
+meta/LuaJIT zh-cn utf8/string.lua
+meta/LuaJIT zh-cn utf8/builtin.lua
+meta/LuaJIT zh-cn utf8/string/
+meta/LuaJIT zh-cn utf8/string/buffer.lua
+meta/LuaJIT zh-cn utf8/table/
+meta/LuaJIT zh-cn utf8/table/clear.lua
+meta/LuaJIT zh-cn utf8/table/new.lua
+meta/LuaJIT zh-cn utf8/io.lua
+meta/LuaJIT zh-cn utf8/jit.lua
+meta/LuaJIT zh-cn utf8/bit32.lua
+meta/LuaJIT zh-cn utf8/basic.lua
+meta/LuaJIT zh-cn utf8/coroutine.lua
+meta/LuaJIT zh-cn utf8/jit/
+meta/LuaJIT zh-cn utf8/jit/util.lua
+meta/LuaJIT zh-cn utf8/jit/profile.lua
+meta/LuaJIT zh-cn utf8/ffi.lua
+meta/LuaJIT zh-cn utf8/utf8.lua
+meta/LuaJIT zh-cn utf8/bit.lua
+script/
+script/SDBMHash.lua
+script/file-uri.lua
+script/plugin.lua
+script/client.lua
+script/files.lua
+script/meta/
+script/meta/bee/
+script/meta/bee/filesystem.lua
+script/meta/bee/socket.lua
+script/meta/bee/thread.lua
+script/meta/bee/filewatch.lua
+script/service/
+script/service/service.lua
+script/service/init.lua
+script/service/net.lua
+script/cli/
+script/cli/check_worker.lua
+script/cli/doc.lua
+script/cli/visualize.lua
+script/cli/version.lua
+script/cli/init.lua
+script/cli/check.lua
+script/cli/doc2md.lua
+script/parser/
+script/parser/relabel.lua
+script/parser/lines.lua
+script/parser/tokens.lua
+script/parser/compile.lua
+script/parser/guide.lua
+script/parser/init.lua
+script/parser/luadoc.lua
+script/vm/
+script/vm/node.lua
+script/vm/ref.lua
+script/vm/infer.lua
+script/vm/variable.lua
+script/vm/type.lua
+script/vm/global.lua
+script/vm/library.lua
+script/vm/compiler.lua
+script/vm/precompile.lua
+script/vm/vm.lua
+script/vm/doc.lua
+script/vm/value.lua
+script/vm/visible.lua
+script/vm/function.lua
+script/vm/generic.lua
+script/vm/init.lua
+script/vm/def.lua
+script/vm/sign.lua
+script/vm/tracer.lua
+script/vm/operator.lua
+script/vm/field.lua
+script/provider/
+script/provider/spell.lua
+script/provider/formatting.lua
+script/provider/markdown.lua
+script/provider/name-style.lua
+script/provider/semantic-tokens.lua
+script/provider/provider.lua
+script/provider/completion.lua
+script/provider/build-meta.lua
+script/provider/init.lua
+script/provider/diagnostic.lua
+script/provider/code-lens.lua
+script/provider/inlay-hint.lua
+script/provider/capability.lua
+script/glob/
+script/glob/init.lua
+script/glob/gitignore.lua
+script/glob/matcher.lua
+script/glob/glob.lua
+script/text-merger.lua
+script/global.d.lua
+script/linked-table.lua
+script/language.lua
+script/library.lua
+script/locale-loader.lua
+script/encoder/
+script/encoder/ansi.lua
+script/encoder/utf16.lua
+script/encoder/init.lua
+script/jsonc.lua
+script/fs-utility.lua
+script/core/
+script/core/rangeformatting.lua
+script/core/formatting.lua
+script/core/matchkey.lua
+script/core/substring.lua
+script/core/hover/
+script/core/hover/return.lua
+script/core/hover/args.lua
+script/core/hover/table.lua
+script/core/hover/init.lua
+script/core/hover/label.lua
+script/core/hover/name.lua
+script/core/hover/description.lua
+script/core/diagnostics/
+script/core/diagnostics/missing-return.lua
+script/core/diagnostics/undefined-global.lua
+script/core/diagnostics/incomplete-signature-doc.lua
+script/core/diagnostics/undefined-doc-class.lua
+script/core/diagnostics/doc-field-no-class.lua
+script/core/diagnostics/invisible.lua
+script/core/diagnostics/empty-block.lua
+script/core/diagnostics/unused-local.lua
+script/core/diagnostics/unreachable-code.lua
+script/core/diagnostics/redundant-return.lua
+script/core/diagnostics/different-requires.lua
+script/core/diagnostics/missing-parameter.lua
+script/core/diagnostics/return-type-mismatch.lua
+script/core/diagnostics/cast-type-mismatch.lua
+script/core/diagnostics/count-down-loop.lua
+script/core/diagnostics/unbalanced-assignments.lua
+script/core/diagnostics/unused-label.lua
+script/core/diagnostics/close-non-object.lua
+script/core/diagnostics/global-in-nil-env.lua
+script/core/diagnostics/duplicate-index.lua
+script/core/diagnostics/inject-field.lua
+script/core/diagnostics/helper/
+script/core/diagnostics/helper/missing-doc-helper.lua
+script/core/diagnostics/unknown-diag-code.lua
+script/core/diagnostics/duplicate-set-field.lua
+script/core/diagnostics/discard-returns.lua
+script/core/diagnostics/unused-vararg.lua
+script/core/diagnostics/trailing-space.lua
+script/core/diagnostics/missing-fields.lua
+script/core/diagnostics/codestyle-check.lua
+script/core/diagnostics/undefined-doc-name.lua
+script/core/diagnostics/redundant-value.lua
+script/core/diagnostics/undefined-field.lua
+script/core/diagnostics/param-type-mismatch.lua
+script/core/diagnostics/no-unknown.lua
+script/core/diagnostics/duplicate-doc-param.lua
+script/core/diagnostics/global-element.lua
+script/core/diagnostics/unused-function.lua
+script/core/diagnostics/init.lua
+script/core/diagnostics/unknown-operator.lua
+script/core/diagnostics/redefined-local.lua
+script/core/diagnostics/missing-return-value.lua
+script/core/diagnostics/undefined-env-child.lua
+script/core/diagnostics/redundant-parameter.lua
+script/core/diagnostics/cast-local-type.lua
+script/core/diagnostics/duplicate-doc-alias.lua
+script/core/diagnostics/circle-doc-class.lua
+script/core/diagnostics/not-yieldable.lua
+script/core/diagnostics/name-style-check.lua
+script/core/diagnostics/redundant-return-value.lua
+script/core/diagnostics/await-in-sync.lua
+script/core/diagnostics/assign-type-mismatch.lua
+script/core/diagnostics/newfield-call.lua
+script/core/diagnostics/lowercase-global.lua
+script/core/diagnostics/spell-check.lua
+script/core/diagnostics/deprecated.lua
+script/core/diagnostics/undefined-doc-param.lua
+script/core/diagnostics/code-after-break.lua
+script/core/diagnostics/ambiguity-1.lua
+script/core/diagnostics/need-check-nil.lua
+script/core/diagnostics/missing-local-export-doc.lua
+script/core/diagnostics/duplicate-doc-field.lua
+script/core/diagnostics/newline-call.lua
+script/core/diagnostics/missing-global-doc.lua
+script/core/diagnostics/unknown-cast-variable.lua
+script/core/modifyRequirePath.lua
+script/core/completion/
+script/core/completion/completion.lua
+script/core/completion/keyword.lua
+script/core/completion/init.lua
+script/core/completion/auto-require.lua
+script/core/completion/postfix.lua
+script/core/view/
+script/core/view/psi-select.lua
+script/core/view/psi-view.lua
+script/core/semantic-tokens.lua
+script/core/command/
+script/core/command/exportDocument.lua
+script/core/command/removeSpace.lua
+script/core/command/getConfig.lua
+script/core/command/jsonToLua.lua
+script/core/command/reloadFFIMeta.lua
+script/core/command/setConfig.lua
+script/core/command/solve.lua
+script/core/command/autoRequire.lua
+script/core/code-action.lua
+script/core/rename.lua
+script/core/hint.lua
+script/core/type-formatting.lua
+script/core/signature.lua
+script/core/highlight.lua
+script/core/jump-source.lua
+script/core/workspace-symbol.lua
+script/core/code-lens.lua
+script/core/reference.lua
+script/core/color.lua
+script/core/implementation.lua
+script/core/look-backward.lua
+script/core/definition.lua
+script/core/find-source.lua
+script/core/folding.lua
+script/core/document-symbol.lua
+script/core/type-definition.lua
+script/tracy.lua
+script/jsonrpc.lua
+script/inspect.lua
+script/version.lua
+script/without-check-nil.lua
+script/proto/
+script/proto/proto.lua
+script/proto/converter.lua
+script/proto/init.lua
+script/proto/diagnostic.lua
+script/proto/define.lua
+script/gc.lua
+script/json-beautify.lua
+script/pub/
+script/pub/report.lua
+script/pub/init.lua
+script/pub/pub.lua
+script/brave/
+script/brave/work.lua
+script/brave/init.lua
+script/brave/brave.lua
+script/brave/log.lua
+script/await.lua
+script/lazy-cacher.lua
+script/plugins/
+script/plugins/astHelper.lua
+script/plugins/init.lua
+script/plugins/nodeHelper.lua
+script/plugins/ffi/
+script/plugins/ffi/cdefRerence.lua
+script/plugins/ffi/init.lua
+script/plugins/ffi/c-parser/
+script/plugins/ffi/c-parser/cpp.lua
+script/plugins/ffi/c-parser/c99.lua
+script/plugins/ffi/c-parser/typed.lua
+script/plugins/ffi/c-parser/util.lua
+script/plugins/ffi/c-parser/cdriver.lua
+script/plugins/ffi/c-parser/ctypes.lua
+script/plugins/ffi/c-parser/cdefines.lua
+script/plugins/ffi/searchCode.lua
+script/doctor.lua
+script/workspace/
+script/workspace/loading.lua
+script/workspace/require-path.lua
+script/workspace/workspace.lua
+script/workspace/init.lua
+script/workspace/scope.lua
+script/json-edit.lua
+script/lclient.lua
+script/timer.lua
+script/filewatch.lua
+script/string-merger.lua
+script/lazytable.lua
+script/progress.lua
+script/json.lua
+script/log.lua
+script/utility.lua
+script/config/
+script/config/env.lua
+script/config/loader.lua
+script/config/init.lua
+script/config/template.lua
+script/config/config.lua
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/package.json"…Installing language server marksman... Downloading file "https://github.com/artempyanykh/marksman/releases/download/2023-12-09/marksman-linux-x64"…
+Unpacking "marksman-linux-x64"…Installing language server pyright... Wrote to /home/gajin/.local/share/nvim/mason/staging/pyright/package.json:
+
+{
+  "name": "@mason/pyright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package pyright@1.1.370…
+
+added 1 package, and audited 2 packages in 978ms
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/microsoft/pyright/1.1.370/packages/vscode-pyright/package.json"…Installing language server sqlls... Wrote to /home/gajin/.local/share/nvim/mason/staging/sqlls/package.json:
+
+{
+  "name": "@mason/sqlls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package sql-language-server@1.7.0…
+Error detected while processing command line:
+npm warn deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm warn deprecated npmlog@6.0.2: This package is no longer supported.
+npm warn deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm warn deprecated are-we-there-yet@3.0.1: This package is no longer supported.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm warn deprecated domexception@2.0.1: Use your platform's native DOMException instead
+npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm warn deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm warn deprecated gauge@4.0.4: This package is no longer supported.
+
+added 699 packages, and audited 700 packages in 10s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+22 vulnerabilities (20 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.Installing language server tailwindcss-language-server... Wrote to /home/gajin/.local/share/nvim/mason/staging/tailwindcss-language-server/package.json:
+
+{
+  "name": "@mason/tailwindcss-language-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package @tailwindcss/language-server@0.0.20…
+
+added 1 package, and audited 2 packages in 868ms
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/tailwindlabs/tailwindcss-intellisense/@tailwindcss/language-server@v0.0.20/packages/vscode-tailwindcss/package.json"…Installing language server taplo... Downloading file "https://github.com/tamasfe/taplo/releases/download/0.8.1/taplo-full-linux-x86_64.gz"…
+Unpacking "taplo-full-linux-x86_64.gz"…Installing language server terraform-ls... Downloading file "https://releases.hashicorp.com/terraform-ls/0.33.3/terraform-ls_0.33.3_linux_amd64.zip"…
+Unpacking "terraform-ls.zip"…
+Archive:  terraform-ls.zip
+  inflating: ./LICENSE.txt           
+  inflating: ./terraform-ls          
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/hashicorp/vscode-terraform/master/package.json"…Installing language server typescript-language-server... Wrote to /home/gajin/.local/share/nvim/mason/staging/typescript-language-server/package.json:
+
+{
+  "name": "@mason/typescript-language-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package typescript-language-server@4.3.3…
+
+added 2 packages, and audited 3 packages in 484ms
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/microsoft/vscode/main/extensions/typescript-language-features/package.json"…Installing language server vetur-vls... Wrote to /home/gajin/.local/share/nvim/mason/staging/vetur-vls/package.json:
+
+{
+  "name": "@mason/vetur-vls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package vls@0.8.5…
+Error detected while processing command line:
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @humanwhocodes/config-array@0.11.14: Use @eslint/config-array instead
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm warn deprecated tslint@6.1.3: TSLint has been deprecated in favor of ESLint. Please see https://github.com/palantir/tslint/issues/4534 for more information.
+
+added 168 packages, and audited 169 packages in 2s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/vuejs/vetur/master/package.json"…Installing language server yaml-language-server... Wrote to /home/gajin/.local/share/nvim/mason/staging/yaml-language-server/package.json:
+
+{
+  "name": "@mason/yaml-language-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package yaml-language-server@1.15.0…
+
+added 21 packages, and audited 22 packages in 820ms
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/redhat-developer/vscode-yaml/master/package.json"…Installing language server intelephense... Wrote to /home/gajin/.local/share/nvim/mason/staging/intelephense/package.json:
+
+{
+  "name": "@mason/intelephense",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+Initialized npm root.
+Installing npm package intelephense@1.11.5…
+
+added 202 packages, and audited 203 packages in 18s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Downloading LSP configuration schema from "https://raw.githubusercontent.com/bmewburn/vscode-intelephense/master/package.json"…Installing language server terraformls... Error detected while processing command line:
+"terraformls" is not a valid package.
+Git (interactive)
+commit gpg signing: disabled
+default editor: vim
+Current git user.name: "gajinkim"
+Current git user.email: "gajin2000@gmail.com"
