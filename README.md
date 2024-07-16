@@ -16,7 +16,6 @@ List of Manual Installs...
 - brew install `rip-grep`
 - brew install `lua-language-server`
 
-
 ## Notes
 
 ### [ZSH](https://www.zsh.org/) (preferred shell)
