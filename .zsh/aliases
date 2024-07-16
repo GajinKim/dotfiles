@@ -5,6 +5,7 @@ alias working='cd ~/Workspace'
 alias workspace='cd ~/Workspace'
 alias ws='cd ~/Workspace'
 alias sai='cd ~/SAIWorkspace'
+alias genai='cd ~/GenAIWorkspace'
 alias refresh='source ~/.zshrc'
 alias configs='cd ~/.config'
 alias config='cd ~/.config'
@@ -12,6 +13,7 @@ alias config='cd ~/.config'
 alias aliases='nvim ~/.zsh/aliases'
 alias shortcuts='nvim ~/.zsh/aliases'
 alias mappings='nvim ~/.config/nvim/vim/mappings.vim'
+alias swap ='cd ~/.local/state/nvim/swap/'
 
 # Git aliases
 alias g="git"
