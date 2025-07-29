@@ -12,6 +12,7 @@ vim.call('plug#begin')
     Plug('nvim-tree/nvim-web-devicons')
     Plug('folke/which-key.nvim') -- :WhichKey
     Plug('ggandor/leap.nvim')
+    Plug('easymotion/vim-easymotion')
 
     -- LSP (Language Server)
     Plug('neovim/nvim-lspconfig')
