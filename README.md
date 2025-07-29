@@ -1,5 +1,6 @@
 # .config
-Some of my configuration files.
+Some of my configuration files (actual plugins for nvim using .vim and .lua)
+- .zsh are for terminal aliases
 
 ## Dependencies
 List of Manual Installs...
