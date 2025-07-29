@@ -5,3 +5,10 @@ require('plugin-settings')
 require('lsp')
 require('autocomplete')
 require('indent-blankline')
+
+-- Configure nvim-tree
+require("nvim-tree").setup{
+  view = {
+    side = "right"
+  }
+}
