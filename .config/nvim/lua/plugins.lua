@@ -2,6 +2,7 @@ local Plug = vim.fn['plug#']
 
 -- :PlugInstall & :PlugUpdate & :PlugClean
 
+-- https://github.com/junegunn/vim-plug?tab=readme-ov-file#lua-example-for-neovim
 vim.call('plug#begin')
     -- Utilities
     Plug('jiangmiao/auto-pairs')
