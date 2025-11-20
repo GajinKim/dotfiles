@@ -31,5 +31,6 @@ vim.opt.undofile=true
 vim.cmd('so ~/.config/nvim/vim/init.vim')
 
 -- Load `lua/` scripts
-require('init') -- Loads from `~/.config/nvim/lua`
+-- Automatically adds lua/ directory to runtime path. Anything inside lua/ can be loaded with require()
+require('init') -- Load `init.lua` from `~/.config/nvim/lua`
 
